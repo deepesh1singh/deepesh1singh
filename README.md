@@ -310,42 +310,7 @@
 </td>
 </tr>
 </table>
-
-### 📈 Programming Contest Stats
-```
-🏆 Contest Participation: 50+ contests
-🎯 Problem Solving: 500+ problems solved
-⭐ Specialty: Dynamic Programming, Graph Theory, Number Theory
-🧠 Algorithmic Thinking: Advanced Data Structures & Algorithms
-```
-
 </div>
-
-## 🎓 Academic Excellence - IIT Kharagpur Journey
-
-<div align="center">
-
-### 📚 **Core Computer Science Curriculum**
-
-**🏗️ Programming & Systems**
-- Programming and Data Structure ⭐
-- System Programming Laboratory ⭐
-- Operating System ⭐
-- Computer Networks ⭐
-
-**🤖 AI/ML & Algorithms**
-- Machine Learning
-- Artificial Intelligence
-- Scalable Data Mining
-- Algorithm I ⭐ & Algorithm II
-
-**💾 Data & Mathematics**
-- Database Management System ⭐
-- Probability and Statistics
-- Discrete Mathematics
-- Computer Organization
-
-*⭐ Courses include both Theory and Laboratory components*
 
 </div>
 
@@ -361,6 +326,5 @@
 
 ### 💭 *"Code is poetry written in logic, and every bug is a haiku waiting to be debugged."*
 
-**⚡ Fun Fact:** I once broke a 200-year-old cipher using modern ML techniques - proving that sometimes the old problems just need new solutions! 🔓
 
 </div>
