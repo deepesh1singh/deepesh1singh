@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Passionate+Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Always+Learning+%26+Building+%F0%9F%9A%80;Code+%7C+Create+%7C+Innovate+%E2%9C%A8" alt="About Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Always+Learning+%26+Building+%F0%9F%9A%80;" alt="About Typing SVG" />
 
 ### **🏛️ Indian Institute of Technology Kharagpur** 
 *Premier Technical Institute | Est. 1951 | Top 5 IIT*
@@ -69,7 +69,7 @@
 ## 🚀 Featured Projects Showcase
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=60&lines=Building+the+Future+%F0%9F%9B%A0%EF%B8%8F;One+Project+at+a+Time+%F0%9F%9A%80" alt="Projects Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=60&lines=Projects%F0%9F%9A%80" alt="Projects Typing SVG" />
 </div>
 
 ### 🎪 Event Management Ecosystem
@@ -268,7 +268,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Mastering+the+Art+of+Code+%F0%9F%8E%A8;Building+with+Precision+%E2%9A%A1" alt="Tech Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Mastering+the+Art+of+Code+%F0%9F%8E%A8" alt="Tech Typing SVG" />
 
 ### 🏗️ **Core Development Stack**
 
@@ -409,13 +409,13 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-## 📊 GitHub Analytics - The Numbers That Tell My Story
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Data+Speaks+Louder+Than+Words+%F0%9F%93%88;My+Coding+Journey+in+Numbers+%E2%9C%A8" alt="Analytics Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Contribution+Graph+%E2%9C%A8" alt="Analytics Typing SVG" />
 
-<img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&bg_color=0D1117&color=06FFA5&line=FF6B35&point=FFD23F&area=true&hide_border=true&custom_title=Deepesh's%20Contribution%20Graph" />
+<img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&bg_color=0D1117&color=06FFA5&line=FF6B35&point=FFD23F&area=true&hide_border=true&custom_title=" />
 
 </div>
 
@@ -439,44 +439,6 @@
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepesh1singh&theme=tokyonight&hide_border=true&background=0D1117&stroke=06FFA5&ring=FF6B35&fire=FFD23F&currStreakLabel=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
-
-</div>
-
-## ⚔️ Competitive Programming Journey
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FFD700&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Problem+Solving+is+My+Passion+%E2%9A%94%EF%B8%8F;Algorithms+%26+Data+Structures+Master+%F0%9F%A7%A0" alt="CP Typing SVG" />
-
-<table>
-<tr>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="100"/>
-<br>
-<img src="https://img.shields.io/badge/🏆_Codeforces-Specialist-yellow?style=for-the-badge&logo=codeforces&logoColor=white">
-<br><br>
-<img src="https://img.shields.io/badge/Current_Rating-1525-brightgreen?style=for-the-badge&logo=target&logoColor=white">
-<img src="https://img.shields.io/badge/Max_Rating-1525-blue?style=for-the-badge&logo=trophy&logoColor=white">
-<br><br>
-<img src="https://img.shields.io/badge/Problems_Solved-500+-orange?style=for-the-badge&logo=checkmarx&logoColor=white">
-</td>
-</tr>
-</table>
-
-### 🎯 **Problem Solving Stats**
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/Data_Structures-Advanced-purple?style=for-the-badge&logo=buffer&logoColor=white">
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/Algorithms-Expert-red?style=for-the-badge&logo=atom&logoColor=white">
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/Mathematics-Strong-green?style=for-the-badge&logo=wolfram&logoColor=white">
-</td>
-</tr>
-</table>
 
 </div>
 
