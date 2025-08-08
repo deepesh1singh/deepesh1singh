@@ -1,170 +1,298 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Deepesh%20Singh&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=gradient" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:0693E3&height=120&section=header&text=&animation=twinkling" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00D9FF&background=000000&center=true&vCenter=true&width=600&height=60&lines=Software+Engineer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=0693E3&background=00000000&center=true&vCenter=true&width=800&height=100&lines=Hello+World!+I'm;Deepesh+Singh;Software+Engineer+🚀;IIT+Kharagpur+Student+🎓;Full+Stack+Developer+💻;Problem+Solver+🧩" alt="Typing SVG" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 </div>
 
-## About Me
+## 🎯 About Me
 
 <div align="center">
 
-### **Indian Institute of Technology Kharagpur** 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Passionate+Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Always+Learning+%26+Building+%F0%9F%9A%80;Code+%7C+Create+%7C+Innovate+%E2%9C%A8" alt="About Typing SVG" />
+
+### **🏛️ Indian Institute of Technology Kharagpur** 
 *Premier Technical Institute | Est. 1951 | Top 5 IIT*
 
-<img src="https://img.shields.io/badge/IIT_Kharagpur-B.Tech_+_M.Tech_CSE-FF6B35?style=for-the-badge&logo=googlescholar&logoColor=white">
+<img src="https://img.shields.io/badge/Computer_Science_&_Engineering-B.Tech_+_M.Tech-FF6B35?style=for-the-badge&logo=googlescholar&logoColor=white">
 <img src="https://img.shields.io/badge/Duration-2022--2027-1976D2?style=for-the-badge&logo=calendar&logoColor=white">
+<img src="https://img.shields.io/badge/Dual_Degree-5_Years-06FFA5?style=for-the-badge&logo=graduation-cap&logoColor=white">
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-<table align="center">
+## 🏆 Awards & Achievements
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FFD700&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Excellence+in+Every+Step+%F0%9F%8E%96%EF%B8%8F" alt="Achievement Typing SVG" />
+
+<table>
 <tr>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/000000/trophy.png"/>
-<br><strong>JEE Advanced</strong>
-<br>All India Rank <strong>16</strong>
-<br><sub>Category Rank</sub>
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80"/>
+<br><strong>🎯 JEE Advanced</strong>
+<br><img src="https://img.shields.io/badge/All_India_Rank-16-gold?style=for-the-badge&logo=trophy">
+<br><sub><em>Category Rank Achievement</em></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/000000/code.png"/>
-<br><strong>Codeforces</strong>
-<br>Specialist <strong>1525</strong>
-<br><sub>Rating</sub>
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="80"/>
+<br><strong>⚔️ Codeforces</strong>
+<br><img src="https://img.shields.io/badge/Specialist-1525-yellow?style=for-the-badge&logo=codeforces">
+<br><sub><em>Competitive Programming</em></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/000000/scholarship.png"/>
-<br><strong>NTSE Scholar</strong>
-<br>National Talent Search
-<br><sub>2019</sub>
+<img src="https://user-images.githubusercontent.com/74038190/216121986-1a506a75-2381-41c2-baff-eeab94bcec74.png" width="80"/>
+<br><strong>🎓 NTSE Scholar</strong>
+<br><img src="https://img.shields.io/badge/National_Talent_Search-2019-purple?style=for-the-badge&logo=star">
+<br><sub><em>Academic Excellence</em></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/>
-<br><strong>AWS Certified</strong>
-<br>ML Foundations
-<br><sub>Amazon</sub>
+<img src="https://user-images.githubusercontent.com/74038190/216122003-7b8a4be9-db7d-4de6-9a95-58ba9e3a9ab7.png" width="80"/>
+<br><strong>☁️ AWS Certified</strong>
+<br><a href="https://www.credly.com/badges/585f99e3-9fd9-4649-818a-777ae0be1c49/public_url">
+<img src="https://img.shields.io/badge/ML_Foundations-Certified-orange?style=for-the-badge&logo=amazon-aws">
+</a>
+<br><sub><em>Amazon Web Services</em></sub>
 </td>
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
 
-## Featured Projects Showcase
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## 🚀 Featured Projects Showcase
+
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=60&lines=Building+the+Future+%F0%9F%9B%A0%EF%B8%8F;One+Project+at+a+Time+%F0%9F%9A%80" alt="Projects Typing SVG" />
 </div>
+
+### 🎪 Event Management Ecosystem
 
 <div align="center">
 
-### Event Management Ecosystem
-[![Repo](https://img.shields.io/badge/GitHub-Event_Management_System-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/Event-Management-System)
+[![Repo](https://img.shields.io/badge/🔗_Explore_Repository-Event_Management_System-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/Event-Management-System)
+<img src="https://img.shields.io/badge/Status-Production_Ready-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
 
 </div>
 
-**Enterprise-grade event management platform revolutionizing event organization**
+**🌟 Enterprise-grade event management platform revolutionizing event organization**
 
 <details>
 <summary><strong>🔧 Technical Architecture & Features</strong></summary>
+<br>
 
-```
-🏗️ Architecture: MVC Pattern with RESTful APIs
-🔐 Security: JWT Authentication + bcrypt encryption
-🎫 Features: PDF generation, Email automation, Role-based access
-👥 Roles: Manager | Vendor | Accountant | Customer
-📊 Database: MongoDB with optimized schemas
-🚀 Performance: Async operations, middleware optimization
+```yaml
+🏗️ Architecture:
+  ├── Pattern: MVC (Model-View-Controller)
+  ├── API Design: RESTful endpoints
+  └── Scalability: Microservices ready
+
+🔐 Security Layer:
+  ├── Authentication: JWT tokens
+  ├── Encryption: bcrypt hashing
+  └── Validation: Input sanitization
+
+🎫 Core Features:
+  ├── PDF Generation: Dynamic invoices & tickets
+  ├── Email Automation: Nodemailer integration
+  ├── Role Management: 4-tier access control
+  └── Real-time Updates: Event status tracking
+
+👥 User Roles:
+  ├── 🏢 Manager: Full system access
+  ├── 🏪 Vendor: Service management
+  ├── 💰 Accountant: Financial oversight
+  └── 👤 Customer: Event participation
+
+📊 Database:
+  ├── MongoDB: Document-based storage
+  ├── Indexing: Optimized queries
+  └── Aggregation: Advanced analytics
+
+🚀 Performance:
+  ├── Async Operations: Non-blocking I/O
+  ├── Middleware: Request optimization
+  └── Caching: Response acceleration
 ```
 
-**Tech Stack:** `Node.js` `Express.js` `MongoDB` `EJS` `JWT` `Puppeteer` `Nodemailer`
+**🛠️ Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black">
+<img src="https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink">
+<img src="https://img.shields.io/badge/Puppeteer-40B5A8?style=for-the-badge&logo=puppeteer&logoColor=white">
 
 </details>
 
 ---
 
+### 🎬 Multimedia Database Revolution
+
 <div align="center">
 
-### Multimedia Database Revolution
-[![Repo](https://img.shields.io/badge/GitHub-Multimedia_Database_System-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/multimedia-database-system)
+[![Repo](https://img.shields.io/badge/🔗_Explore_Repository-Multimedia_Database_System-0693E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/multimedia-database-system)
+<img src="https://img.shields.io/badge/Status-Feature_Complete-F7931E?style=for-the-badge&logo=checkmarx&logoColor=white">
 
 </div>
 
-**Next-gen media content management system with scalable architecture**
+**🎯 Next-generation media content management system with scalable architecture**
 
 <details>
 <summary><strong>🔧 Technical Architecture & Features</strong></summary>
+<br>
 
-```
-📁 Media Support: Video | Game | Image | Painting | Article | Newspaper
-🗄️ Database: SQLite with optimized queries
-📤 Upload: Multer middleware for large file handling
-👑 Admin Panel: Content moderation, user management, analytics
-🔒 Security: Secure user authentication, file validation
-⚡ Performance: Scalable architecture, efficient file processing
+```yaml
+📁 Media Support Matrix:
+  ├── 🎬 Video: MP4, AVI, MOV formats
+  ├── 🎮 Games: Interactive content
+  ├── 🖼️ Images: JPEG, PNG, WebP
+  ├── 🎨 Paintings: Digital art gallery
+  ├── 📄 Articles: Rich text content
+  └── 📰 Newspapers: Publication system
+
+🗄️ Database Architecture:
+  ├── SQLite: Lightweight & efficient
+  ├── Query Optimization: Indexed searches
+  ├── ACID Compliance: Data integrity
+  └── Backup System: Automated snapshots
+
+📤 Upload System:
+  ├── Multer Middleware: Large file handling
+  ├── File Validation: Security checks
+  ├── Progress Tracking: Real-time updates
+  └── Compression: Storage optimization
+
+👑 Admin Dashboard:
+  ├── Content Moderation: Review system
+  ├── User Management: Role assignment
+  ├── Analytics: Usage statistics
+  └── System Health: Performance metrics
+
+🔒 Security Features:
+  ├── Authentication: Secure login system
+  ├── File Validation: Malware protection
+  ├── Access Control: Permission-based
+  └── Rate Limiting: DDoS protection
+
+⚡ Performance Optimization:
+  ├── Scalable Architecture: Growth ready
+  ├── File Processing: Efficient handling
+  ├── Caching Layer: Speed enhancement
+  └── Load Balancing: Traffic distribution
 ```
 
-**Tech Stack:** `HTML5` `CSS3` `JavaScript` `Node.js` `Express.js` `SQLite` `Multer`
+**🛠️ Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
 
 </details>
 
 ---
 
+### 🔐 AI-Powered Cryptanalysis Engine
+
 <div align="center">
 
-### AI-Powered Cryptanalysis Engine
-[![Repo](https://img.shields.io/badge/GitHub-ML_Cryptanalysis-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/ML-Cryptanalysis)
+[![Repo](https://img.shields.io/badge/🔗_Explore_Repository-ML_Cryptanalysis-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/ML-Cryptanalysis)
+<img src="https://img.shields.io/badge/Status-Research_Grade-FFD23F?style=for-the-badge&logo=flask&logoColor=black">
 
 </div>
 
-**Revolutionary machine learning approach to break classical encryption**
+**🧠 Revolutionary machine learning approach to break classical encryption algorithms**
 
 <details>
 <summary><strong>🔧 Technical Architecture & Performance</strong></summary>
+<br>
 
-```
+```yaml
 🎯 Accuracy Metrics:
-├── Caesar Cipher: ~95% accuracy
-├── Vigenère Cipher: ~85% accuracy
-└── Substitution Cipher: ~70% accuracy
+  ├── Caesar Cipher: ~95% success rate
+  ├── Vigenère Cipher: ~85% breakthrough
+  ├── Substitution Cipher: ~70% decryption
+  └── Polyalphabetic: ~65% analysis
 
-🧠 ML Models: Random Forest | SVM | Neural Networks
-📊 Features: Frequency analysis, N-gram extraction, Statistical analysis
-🔬 Research: Automated cryptanalysis with feature engineering
+🧠 Machine Learning Models:
+  ├── Random Forest: Ensemble learning
+  ├── Support Vector Machine: Pattern recognition  
+  ├── Neural Networks: Deep learning approach
+  ├── Naive Bayes: Probabilistic classifier
+  └── Decision Trees: Interpretable results
+
+📊 Feature Engineering:
+  ├── Frequency Analysis: Character distribution
+  ├── N-gram Extraction: Pattern identification
+  ├── Statistical Analysis: Entropy calculation
+  ├── Linguistic Patterns: Language detection
+  └── Cryptographic Features: Cipher-specific
+
+🔬 Research Innovation:
+  ├── Automated Cryptanalysis: No manual input
+  ├── Multi-cipher Detection: Algorithm identification
+  ├── Performance Optimization: Speed enhancement
+  └── Scalability: Large dataset processing
+
+🎓 Academic Impact:
+  ├── Novel Approach: ML in cryptography
+  ├── Comparative Study: Traditional vs ML
+  ├── Algorithm Analysis: Complexity study
+  └── Future Research: Quantum resistance
 ```
 
-**Tech Stack:** `Python` `Scikit-learn` `TensorFlow` `PyTorch` `NLTK` `Pandas` `NumPy`
+**🛠️ Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
 
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-## Technology Arsenal
+## 💻 Technology Arsenal
 
 <div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Mastering+the+Art+of+Code+%F0%9F%8E%A8;Building+with+Precision+%E2%9A%A1" alt="Tech Typing SVG" />
 
 ### 🏗️ **Core Development Stack**
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
-<br>C++
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="75" height="75" />
+<br><strong>C++</strong>
+<br><img src="https://img.shields.io/badge/Advanced-Expert-brightgreen?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-<br>Python
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="75" height="75" />
+<br><strong>Python</strong>
+<br><img src="https://img.shields.io/badge/ML%2FAI-Expert-brightgreen?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-<br>JavaScript
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="75" height="75" />
+<br><strong>JavaScript</strong>
+<br><img src="https://img.shields.io/badge/Full_Stack-Proficient-blue?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=c" width="65" height="65" />
-<br>C
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=c" width="75" height="75" />
+<br><strong>C</strong>
+<br><img src="https://img.shields.io/badge/Systems-Advanced-yellow?style=flat-square">
 </td>
 </tr>
 </table>
@@ -173,17 +301,20 @@
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=html" width="65" height="65" />
-<br>HTML5
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=html" width="75" height="75" />
+<br><strong>HTML5</strong>
+<br><img src="https://img.shields.io/badge/Semantic-Expert-orange?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=css" width="65" height="65" />
-<br>CSS3
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=css" width="75" height="75" />
+<br><strong>CSS3</strong>
+<br><img src="https://img.shields.io/badge/Responsive-Advanced-blue?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-<br>React
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="75" height="75" />
+<br><strong>React</strong>
+<br><img src="https://img.shields.io/badge/Components-Proficient-cyan?style=flat-square">
 </td>
 </tr>
 </table>
@@ -192,48 +323,57 @@
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=nodejs" width="65" height="65" />
-<br>Node.js
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=nodejs" width="75" height="75" />
+<br><strong>Node.js</strong>
+<br><img src="https://img.shields.io/badge/Runtime-Expert-green?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=express" width="65" height="65" />
-<br>Express.js
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=express" width="75" height="75" />
+<br><strong>Express.js</strong>
+<br><img src="https://img.shields.io/badge/API-Advanced-darkgreen?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-<br>MySQL
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="75" height="75" />
+<br><strong>MySQL</strong>
+<br><img src="https://img.shields.io/badge/RDBMS-Proficient-blue?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=postgresql" width="65" height="65" />
-<br>PostgreSQL
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=postgresql" width="75" height="75" />
+<br><strong>PostgreSQL</strong>
+<br><img src="https://img.shields.io/badge/Advanced_DB-Intermediate-lightblue?style=flat-square">
 </td>
 </tr>
 </table>
 
-### 🤖 **Frameworks / Libraries**
+### 🤖 **Frameworks & Libraries**
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++ STL" width="65" height="65" />
-<br>C++ STL
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++ STL" width="75" height="75" />
+<br><strong>C++ STL</strong>
+<br><img src="https://img.shields.io/badge/Algorithms-Expert-red?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Tkinter" width="65" height="65" />
-<br>Tkinter
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Tkinter" width="75" height="75" />
+<br><strong>Tkinter</strong>
+<br><img src="https://img.shields.io/badge/GUI-Intermediate-yellow?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="65" height="65" />
-<br>Pandas
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="75" height="75" />
+<br><strong>Pandas</strong>
+<br><img src="https://img.shields.io/badge/Data_Analysis-Advanced-purple?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="65" height="65" />
-<br>NumPy
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="75" height="75" />
+<br><strong>NumPy</strong>
+<br><img src="https://img.shields.io/badge/Scientific-Expert-darkblue?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="65" height="65" />
-<br>Matplotlib
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="75" height="75" />
+<br><strong>Matplotlib</strong>
+<br><img src="https://img.shields.io/badge/Visualization-Advanced-orange?style=flat-square">
 </td>
 </tr>
 </table>
@@ -242,34 +382,40 @@
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-<br>GitHub
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="75" height="75" />
+<br><strong>GitHub</strong>
+<br><img src="https://img.shields.io/badge/Version_Control-Expert-black?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=git" width="65" height="65" />
-<br>Git
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=git" width="75" height="75" />
+<br><strong>Git</strong>
+<br><img src="https://img.shields.io/badge/SCM-Advanced-orange?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=vscode" width="65" height="65" />
-<br>VS Code
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=vscode" width="75" height="75" />
+<br><strong>VS Code</strong>
+<br><img src="https://img.shields.io/badge/Primary_IDE-Daily-blue?style=flat-square">
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=docker" width="65" height="65" />
-<br>Docker
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=docker" width="75" height="75" />
+<br><strong>Docker</strong>
+<br><img src="https://img.shields.io/badge/Containers-Learning-lightblue?style=flat-square">
 </td>
 </tr>
 </table>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ## 📊 GitHub Analytics - The Numbers That Tell My Story
 
 <div align="center">
 
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&bg_color=21232a&color=a8eeff&line=61dafb&point=ff6b6b&area=true&hide_border=true" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Data+Speaks+Louder+Than+Words+%F0%9F%93%88;My+Coding+Journey+in+Numbers+%E2%9C%A8" alt="Analytics Typing SVG" />
+
+<img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&bg_color=0D1117&color=06FFA5&line=FF6B35&point=FFD23F&area=true&hide_border=true&custom_title=Deepesh's%20Contribution%20Graph" />
 
 </div>
 
@@ -278,12 +424,12 @@
 <tr>
 <td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=deepesh1singh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=deepesh1singh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=FF6B35&icon_color=06FFA5&text_color=FFFFFF&ring_color=FFD23F" alt="GitHub Stats" />
 
 </td>
 <td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepesh1singh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepesh1singh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
 
 </td>
 </tr>
@@ -292,39 +438,62 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepesh1singh&theme=tokyonight&hide_border=true&background=0D1117&stroke=61dafb&ring=F85D7F&fire=F8D866&currStreakLabel=FFFFFF" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepesh1singh&theme=tokyonight&hide_border=true&background=0D1117&stroke=06FFA5&ring=FF6B35&fire=FFD23F&currStreakLabel=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
 
 </div>
 
-## 🎯 Competitive Programming Journey
+## ⚔️ Competitive Programming Journey
 
 <div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FFD700&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Problem+Solving+is+My+Passion+%E2%9A%94%EF%B8%8F;Algorithms+%26+Data+Structures+Master+%F0%9F%A7%A0" alt="CP Typing SVG" />
 
 <table>
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/Codeforces-Specialist-yellow?style=for-the-badge&logo=codeforces&logoColor=white">
+<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="100"/>
 <br>
-<img src="https://img.shields.io/badge/Current_Rating-1525-brightgreen?style=for-the-badge">
-<img src="https://img.shields.io/badge/Max_Rating-1525-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/🏆_Codeforces-Specialist-yellow?style=for-the-badge&logo=codeforces&logoColor=white">
+<br><br>
+<img src="https://img.shields.io/badge/Current_Rating-1525-brightgreen?style=for-the-badge&logo=target&logoColor=white">
+<img src="https://img.shields.io/badge/Max_Rating-1525-blue?style=for-the-badge&logo=trophy&logoColor=white">
+<br><br>
+<img src="https://img.shields.io/badge/Problems_Solved-500+-orange?style=for-the-badge&logo=checkmarx&logoColor=white">
 </td>
 </tr>
 </table>
-</div>
+
+### 🎯 **Problem Solving Stats**
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Data_Structures-Advanced-purple?style=for-the-badge&logo=buffer&logoColor=white">
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Algorithms-Expert-red?style=for-the-badge&logo=atom&logoColor=white">
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Mathematics-Strong-green?style=for-the-badge&logo=wolfram&logoColor=white">
+</td>
+</tr>
+</table>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:0693E3&height=120&section=footer&animation=twinkling" />
 
-<img src="https://komarev.com/ghpvc/?username=deepesh1singh&color=blueviolet&style=for-the-badge" alt="Profile Views">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=4000&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=800&height=50&lines=Thanks+for+visiting+my+profile!+%F0%9F%99%8F;Let's+connect+and+build+amazing+things+together!+%F0%9F%A4%9D;Feel+free+to+explore+my+repositories+%F0%9F%93%9A;Always+open+to+collaboration+and+learning+%F0%9F%9A%80" alt="Footer Typing SVG" />
+
+<img src="https://komarev.com/ghpvc/?username=deepesh1singh&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile Views">
 
 ### 💭 *"Code is poetry written in logic, and every bug is a haiku waiting to be debugged."*
 
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
 
 </div>
