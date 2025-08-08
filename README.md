@@ -211,7 +211,7 @@
 </tr>
 </table>
 
-### 🤖 **AI/ML & Data Science**
+### 🤖 **Frameworks / Libraries**
 
 <table>
 <tr>
