@@ -387,41 +387,6 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Contribution+Graph+%E2%9C%A8" alt="Analytics Typing SVG" />
-
-<img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&bg_color=0D1117&color=06FFA5&line=FF6B35&point=FFD23F&area=true&hide_border=true&custom_title=" />
-
-</div>
-
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api?username=deepesh1singh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=FF6B35&icon_color=06FFA5&text_color=FFFFFF&ring_color=FFD23F" alt="GitHub Stats" />
-
-</td>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepesh1singh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-
-</td>
-</tr>
-</table>
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepesh1singh&theme=tokyonight&hide_border=true&background=0D1117&stroke=06FFA5&ring=FF6B35&fire=FFD23F&currStreakLabel=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
 ## 📱 Connect With Me
 
 <div align="center">
