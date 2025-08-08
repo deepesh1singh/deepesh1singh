@@ -8,11 +8,11 @@
 
 </div>
 
-## 🎯 About Me - The Code Architect
+## About Me
 
 <div align="center">
 
-### 🏛️ **Indian Institute of Technology Kharagpur** 
+### **Indian Institute of Technology Kharagpur** 
 *Premier Technical Institute | Est. 1951 | Top 5 IIT*
 
 <img src="https://img.shields.io/badge/IIT_Kharagpur-B.Tech_+_M.Tech_CSE-FF6B35?style=for-the-badge&logo=googlescholar&logoColor=white">
@@ -53,7 +53,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🚀 Featured Projects Showcase
+## Featured Projects Showcase
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -61,7 +61,7 @@
 
 <div align="center">
 
-### 🎪 Event Management Ecosystem
+### Event Management Ecosystem
 [![Repo](https://img.shields.io/badge/GitHub-Event_Management_System-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/Event-Management-System)
 
 </div>
@@ -88,7 +88,7 @@
 
 <div align="center">
 
-### 🎬 Multimedia Database Revolution
+### Multimedia Database Revolution
 [![Repo](https://img.shields.io/badge/GitHub-Multimedia_Database_System-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/multimedia-database-system)
 
 </div>
@@ -115,7 +115,7 @@
 
 <div align="center">
 
-### 🔐 AI-Powered Cryptanalysis Engine
+### AI-Powered Cryptanalysis Engine
 [![Repo](https://img.shields.io/badge/GitHub-ML_Cryptanalysis-181717?style=for-the-badge&logo=github)](https://github.com/deepesh1singh/ML-Cryptanalysis)
 
 </div>
@@ -142,7 +142,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 💻 Technology Arsenal - My Development Superpowers
+## Technology Arsenal
 
 <div align="center">
 
