@@ -12,8 +12,6 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=50&lines=Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3; alt="About Typing SVG" />
-
 ### **🏛️ Indian Institute of Technology Kharagpur** 
 *Premier Technical Institute | Est. 1951 | Top 5 IIT*
 
