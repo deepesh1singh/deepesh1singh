@@ -51,7 +51,7 @@
 </td>
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/216122003-7b8a4be9-db7d-4de6-9a95-58ba9e3a9ab7.png" width="80"/>
-<br><strong>☁️ AWS Certified</strong>
+<br><strong>☁️ AWS Badge</strong>
 <br><a href="https://www.credly.com/badges/585f99e3-9fd9-4649-818a-777ae0be1c49/public_url">
 <img src="https://img.shields.io/badge/ML_Foundations-Certified-orange?style=for-the-badge&logo=amazon-aws">
 </a>
