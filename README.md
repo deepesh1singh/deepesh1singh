@@ -50,7 +50,7 @@
 <br><sub><em>Academic Excellence</em></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122003-7b8a4be9-db7d-4de6-9a95-58ba9e3a9ab7.png" width="80"/>
+<img src="https://skillicons.dev/icons?i=aws" width="80"/>
 <br><strong>☁️ AWS Badge</strong>
 <br><a href="https://www.credly.com/badges/585f99e3-9fd9-4649-818a-777ae0be1c49/public_url">
 <img src="https://img.shields.io/badge/ML_Foundations-Certified-orange?style=for-the-badge&logo=amazon-aws">
@@ -275,22 +275,18 @@
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="75" height="75" />
 <br><strong>C++</strong>
-<br><img src="https://img.shields.io/badge/Advanced-Expert-brightgreen?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="75" height="75" />
 <br><strong>Python</strong>
-<br><img src="https://img.shields.io/badge/ML%2FAI-Expert-brightgreen?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="75" height="75" />
 <br><strong>JavaScript</strong>
-<br><img src="https://img.shields.io/badge/Full_Stack-Proficient-blue?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=c" width="75" height="75" />
 <br><strong>C</strong>
-<br><img src="https://img.shields.io/badge/Systems-Advanced-yellow?style=flat-square">
 </td>
 </tr>
 </table>
@@ -302,17 +298,14 @@
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=html" width="75" height="75" />
 <br><strong>HTML5</strong>
-<br><img src="https://img.shields.io/badge/Semantic-Expert-orange?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=css" width="75" height="75" />
 <br><strong>CSS3</strong>
-<br><img src="https://img.shields.io/badge/Responsive-Advanced-blue?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="75" height="75" />
 <br><strong>React</strong>
-<br><img src="https://img.shields.io/badge/Components-Proficient-cyan?style=flat-square">
 </td>
 </tr>
 </table>
@@ -324,22 +317,18 @@
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=nodejs" width="75" height="75" />
 <br><strong>Node.js</strong>
-<br><img src="https://img.shields.io/badge/Runtime-Expert-green?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=express" width="75" height="75" />
 <br><strong>Express.js</strong>
-<br><img src="https://img.shields.io/badge/API-Advanced-darkgreen?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="75" height="75" />
 <br><strong>MySQL</strong>
-<br><img src="https://img.shields.io/badge/RDBMS-Proficient-blue?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=postgresql" width="75" height="75" />
 <br><strong>PostgreSQL</strong>
-<br><img src="https://img.shields.io/badge/Advanced_DB-Intermediate-lightblue?style=flat-square">
 </td>
 </tr>
 </table>
@@ -351,27 +340,22 @@
 <td align="center" width="120">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++ STL" width="75" height="75" />
 <br><strong>C++ STL</strong>
-<br><img src="https://img.shields.io/badge/Algorithms-Expert-red?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Tkinter" width="75" height="75" />
 <br><strong>Tkinter</strong>
-<br><img src="https://img.shields.io/badge/GUI-Intermediate-yellow?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="75" height="75" />
 <br><strong>Pandas</strong>
-<br><img src="https://img.shields.io/badge/Data_Analysis-Advanced-purple?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="75" height="75" />
 <br><strong>NumPy</strong>
-<br><img src="https://img.shields.io/badge/Scientific-Expert-darkblue?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="75" height="75" />
 <br><strong>Matplotlib</strong>
-<br><img src="https://img.shields.io/badge/Visualization-Advanced-orange?style=flat-square">
 </td>
 </tr>
 </table>
@@ -383,22 +367,18 @@
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="75" height="75" />
 <br><strong>GitHub</strong>
-<br><img src="https://img.shields.io/badge/Version_Control-Expert-black?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=git" width="75" height="75" />
 <br><strong>Git</strong>
-<br><img src="https://img.shields.io/badge/SCM-Advanced-orange?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=vscode" width="75" height="75" />
 <br><strong>VS Code</strong>
-<br><img src="https://img.shields.io/badge/Primary_IDE-Daily-blue?style=flat-square">
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=docker" width="75" height="75" />
 <br><strong>Docker</strong>
-<br><img src="https://img.shields.io/badge/Containers-Learning-lightblue?style=flat-square">
 </td>
 </tr>
 </table>
@@ -441,6 +421,25 @@
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## 📱 Connect With Me
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Let's+Connect+%F0%9F%A4%9D" alt="Connect Typing SVG" />
+
+<table>
+<tr>
+<td align="center" width="200">
+<a href="https://www.instagram.com/deepesh.ssingh?igsh=bGdoY3dleTh4aHdi" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+<br><strong>📸 Follow my journey</strong>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
