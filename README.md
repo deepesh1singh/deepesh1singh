@@ -8,7 +8,7 @@
 
 </div>
 
-## 🎯 About Me
+## 🎯 Education
 
 <div align="center">
 
