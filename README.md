@@ -1,7 +1,7 @@
-# Hi there, I'm Deepesh Singh 👋
+# I'm Deepesh Singh 
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=500&color=36BCF7&center=true&vCenter=true&width=600&height=50&lines=Computer+Science+%26+Engineering+Student;Full-Stack+Developer;Machine+Learning+Enthusiast;Competitive+Programmer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=500&color=36BCF7&center=true&vCenter=true&width=600&height=50&lines= Computer+Science+%26+Engineering+Student;Software Developer" alt="Typing SVG" />
 </div>
 
 ## 🎓 About Me
