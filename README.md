@@ -434,7 +434,6 @@
 <a href="https://www.instagram.com/deepesh.ssingh?igsh=bGdoY3dleTh4aHdi" target="_blank">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
-<br><strong>📸 Follow my journey</strong>
 </td>
 </tr>
 </table>
