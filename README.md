@@ -40,7 +40,7 @@
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="80"/>
 <br><strong>⚔️ Codeforces</strong>
-<br><img src="https://img.shields.io/badge/Specialist-1525-yellow?style=for-the-badge&logo=codeforces">
+<br><img src="https://img.shields.io/badge/Expert-1654-yellow?style=for-the-badge&logo=codeforces">
 <br><sub><em>Competitive Programming</em></sub>
 </td>
 <td align="center" width="25%">
