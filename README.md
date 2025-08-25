@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:0693E3&height=120&section=header&text=&animation=twinkling" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=0693E3&background=00000000&center=true&vCenter=true&width=800&height=100&lines=Hello+World!+I'm;Deepesh+Singh;Software+Engineer+🚀;IIT+Kharagpur+Student+🎓;" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=0693E3&background=00000000&center=true&vCenter=true&width=800&height=100&lines=Hello+World!+I'm;Deepesh+Singh;Software+Engineer;IIT+Kharagpur+Student;" alt="Typing SVG" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
