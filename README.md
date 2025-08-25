@@ -23,47 +23,6 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-## 🏆 Awards & Achievements
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FFD700&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Excellence+in+Every+Step+%F0%9F%8E%96%EF%B8%8F" alt="Achievement Typing SVG" />
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80"/>
-<br><strong>🎯 JEE Advanced</strong>
-<br><img src="https://img.shields.io/badge/All_India_Rank-16-gold?style=for-the-badge&logo=trophy">
-<br><sub><em>Category Rank Achievement</em></sub>
-</td>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="80"/>
-<br><strong>⚔️ Codeforces</strong>
-<br><img src="https://img.shields.io/badge/Expert-1654-yellow?style=for-the-badge&logo=codeforces">
-<br><sub><em>Competitive Programming</em></sub>
-</td>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216121986-1a506a75-2381-41c2-baff-eeab94bcec74.png" width="80"/>
-<br><strong>🎓 NTSE Scholar</strong>
-<br><img src="https://img.shields.io/badge/National_Talent_Search-2019-purple?style=for-the-badge&logo=star">
-<br><sub><em>Academic Excellence</em></sub>
-</td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=aws" width="80"/>
-<br><strong>☁️ AWS Badge</strong>
-<br><a href="https://www.credly.com/badges/585f99e3-9fd9-4649-818a-777ae0be1c49/public_url">
-<img src="https://img.shields.io/badge/ML_Foundations-Certified-orange?style=for-the-badge&logo=amazon-aws">
-</a>
-<br><sub><em>Amazon Web Services</em></sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
 ## 🚀 Featured Projects Showcase
 
 <div align="center">
