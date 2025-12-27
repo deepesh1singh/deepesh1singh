@@ -84,7 +84,6 @@ Key Achievements:
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/Explore_Repository-BankBrain-0693E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh)
-<img src="https://img.shields.io/badge/Status-Production_Ready-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
 
 </div>
 
@@ -139,7 +138,6 @@ Key Features:
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/Explore_Repository-Multimedia_Database-F7931E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/multimedia-database-system)
-<img src="https://img.shields.io/badge/Status-Feature_Complete-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
 
 </div>
 
@@ -198,7 +196,6 @@ Frontend:
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/Explore_Repository-Event_Management_System-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/Event-Management-System)
-<img src="https://img.shields.io/badge/Status-Production_Ready-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
 
 </div>
 
@@ -271,10 +268,6 @@ Additional Features:
 <br><strong>Python</strong>
 </td>
 <td align="center" width="120">
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="75" height="75" />
-<br><strong>JavaScript</strong>
-</td>
-<td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=c" width="75" height="75" />
 <br><strong>C</strong>
 </td>
@@ -304,14 +297,6 @@ Additional Features:
 
 <table>
 <tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=nodejs" width="75" height="75" />
-<br><strong>Node.js</strong>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=express" width="75" height="75" />
-<br><strong>Express.js</strong>
-</td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=postgresql" width="75" height="75" />
 <br><strong>PostgreSQL</strong>
@@ -381,13 +366,10 @@ Additional Features:
 
 </div>
 
-- **JEE Advanced 2022**: All India Category Rank 16
 - **Codeforces**: Expert rating (1654)
 - **Codeforces Round 1042 (Div. 3)**: Ranked 495th out of 48,643 participants
 - **Codeforces Round 1043 (Div. 3)**: Ranked 27th out of 27,876 participants
-- **FFE Scholarship**: Recipient (2022–2027)
 - **AWS Certified**: Machine Learning Foundations (AWS Educate)
-- **NTSE Scholar**: National Talent Search Examination, NCERT
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
