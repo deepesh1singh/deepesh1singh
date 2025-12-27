@@ -36,7 +36,6 @@ Pursuing an integrated B.Tech and M.Tech in Computer Science and Engineering at 
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/Explore_Repository-ML_ASCON_Cryptanalysis-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/ML-Cryptanalysis)
-<img src="https://img.shields.io/badge/Status-Research_Complete-FFD23F?style=for-the-badge&logo=flask&logoColor=black">
 
 </div>
 
