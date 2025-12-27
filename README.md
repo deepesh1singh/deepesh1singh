@@ -1,576 +1,442 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepesh Singh - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0a192f 0%, #172a45 100%);
-            color: #cbd5e1;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        /* Header Animation */
-        .header-container {
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(180deg, rgba(10, 25, 47, 0.9) 0%, rgba(23, 42, 69, 0.7) 100%);
-            border-radius: 20px;
-            margin-bottom: 40px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .header-container::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
-            animation: pulse 8s infinite alternate;
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.3; }
-            100% { transform: scale(1.1); opacity: 0.5; }
-        }
-        
-        .name {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 3.5rem;
-            font-weight: 700;
-            background: linear-gradient(90deg, #ff6b35, #f7931e, #ffd23f, #06ffa5, #0693e3);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            margin-bottom: 10px;
-            animation: slideIn 1s ease-out;
-        }
-        
-        @keyframes slideIn {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        
-        .title {
-            font-size: 1.8rem;
-            color: #94a3b8;
-            margin-bottom: 20px;
-            animation: fadeIn 1.5s ease-out;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            background: rgba(30, 41, 59, 0.7);
-            border-radius: 50px;
-            transition: all 0.3s ease;
-            animation: floatUp 0.8s ease-out;
-            animation-fill-mode: both;
-        }
-        
-        .contact-item:nth-child(1) { animation-delay: 0.2s; }
-        .contact-item:nth-child(2) { animation-delay: 0.4s; }
-        .contact-item:nth-child(3) { animation-delay: 0.6s; }
-        .contact-item:nth-child(4) { animation-delay: 0.8s; }
-        
-        @keyframes floatUp {
-            from { transform: translateY(30px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        
-        .contact-item:hover {
-            transform: translateY(-5px);
-            background: rgba(59, 130, 246, 0.2);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-        }
-        
-        /* Section Styles */
-        .section {
-            background: rgba(15, 23, 42, 0.8);
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            animation: fadeInUp 0.8s ease-out;
-        }
-        
-        .section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-        }
-        
-        @keyframes fadeInUp {
-            from { transform: translateY(30px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        
-        .section-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 2rem;
-            color: #06ffa5;
-            margin-bottom: 20px;
-            position: relative;
-            padding-bottom: 10px;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100px;
-            height: 3px;
-            background: linear-gradient(90deg, #06ffa5, transparent);
-        }
-        
-        /* Timeline Animation */
-        .timeline-item {
-            margin-bottom: 25px;
-            padding-left: 20px;
-            border-left: 3px solid #3b82f6;
-            position: relative;
-            animation: slideInRight 0.8s ease-out;
-        }
-        
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -8px;
-            top: 5px;
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: #3b82f6;
-            box-shadow: 0 0 10px #3b82f6;
-        }
-        
-        @keyframes slideInRight {
-            from { transform: translateX(-30px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        
-        /* Skill Bars Animation */
-        .skill-container {
-            margin-bottom: 20px;
-        }
-        
-        .skill-name {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 5px;
-        }
-        
-        .skill-bar {
-            height: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-        
-        .skill-level {
-            height: 100%;
-            border-radius: 5px;
-            background: linear-gradient(90deg, #ff6b35, #f7931e);
-            transform: translateX(-100%);
-            animation: fillBar 1.5s ease-out forwards;
-        }
-        
-        @keyframes fillBar {
-            to { transform: translateX(0); }
-        }
-        
-        /* Project Cards Animation */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
-        
-        .project-card {
-            background: rgba(30, 41, 59, 0.8);
-            border-radius: 10px;
-            padding: 25px;
-            transition: all 0.3s ease;
-            animation: fadeIn 0.8s ease-out;
-            animation-fill-mode: both;
-        }
-        
-        .project-card:nth-child(1) { animation-delay: 0.1s; }
-        .project-card:nth-child(2) { animation-delay: 0.2s; }
-        .project-card:nth-child(3) { animation-delay: 0.3s; }
-        
-        .project-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-        }
-        
-        .project-title {
-            font-size: 1.5rem;
-            color: #ffd23f;
-            margin-bottom: 10px;
-        }
-        
-        /* Badge Styles */
-        .badge {
-            display: inline-block;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-right: 8px;
-            margin-bottom: 8px;
-            animation: popIn 0.5s ease-out;
-        }
-        
-        @keyframes popIn {
-            0% { transform: scale(0); }
-            80% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-        
-        .badge-blue { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
-        .badge-green { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
-        .badge-purple { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
-        .badge-orange { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
-        
-        /* Footer Animation */
-        .footer {
-            text-align: center;
-            padding: 40px 20px;
-            margin-top: 40px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            animation: fadeIn 2s ease-out;
-        }
-        
-        .quote {
-            font-style: italic;
-            color: #94a3b8;
-            margin-top: 20px;
-            font-size: 1.2rem;
-            animation: fadeIn 3s ease-out;
-        }
-        
-        /* Typing Animation */
-        .typing-container {
-            margin: 20px 0;
-        }
-        
-        .typing-text {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.8rem;
-            color: #ff6b35;
-            overflow: hidden;
-            white-space: nowrap;
-            border-right: 3px solid #ff6b35;
-            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-        }
-        
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-        
-        @keyframes blink-caret {
-            from, to { border-color: transparent; }
-            50% { border-color: #ff6b35; }
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .name { font-size: 2.5rem; }
-            .title { font-size: 1.4rem; }
-            .contact-info { flex-direction: column; align-items: center; }
-            .projects-grid { grid-template-columns: 1fr; }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Header Section -->
-        <div class="header-container">
-            <h1 class="name">Deepesh Singh</h1>
-            <div class="typing-container">
-                <div class="typing-text">Software Engineer & IIT Kharagpur Student</div>
-            </div>
-            
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>deepesh002singh@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+91-8382945057</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <span>github.com/deepesh1singh</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <span>linkedin.com/in/deepesh-singh</span>
-                </div>
-            </div>
-        </div>
+<div align="center">
 
-        <!-- Professional Summary -->
-        <div class="section">
-            <h2 class="section-title">Professional Summary</h2>
-            <p>Pursuing an integrated B.Tech and M.Tech in Computer Science and Engineering at IIT Kharagpur. Solid expertise in data structures and algorithms, web development, and applied machine learning, with a passion for tackling challenging problems.</p>
-        </div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:0693E3&height=120&section=header&text=&animation=twinkling" />
 
-        <!-- Education -->
-        <div class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline-item">
-                <h3>Indian Institute of Technology Kharagpur</h3>
-                <p><strong>2022 - 2027</strong></p>
-                <p>Bachelor and Master in Computer Science and Engineering</p>
-                <p>CGPA: 5.99/10</p>
-            </div>
-            <div class="timeline-item">
-                <h3>Jawahar Navodaya Vidyalaya, Lucknow</h3>
-                <p><strong>2021</strong></p>
-                <p>Class XII, CBSE - Score: 84.2%</p>
-            </div>
-        </div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=0693E3&background=00000000&center=true&vCenter=true&width=800&height=100&lines=Hello+World!+I'm;Deepesh+Singh;Software+Engineer;IIT+Kharagpur+Student;" alt="Typing SVG" />
 
-        <!-- Work Experience & Projects -->
-        <div class="section">
-            <h2 class="section-title">Work Experience & Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3 class="project-title">Machine Learning-Based Differential Cryptanalysis of ASCON Permutation</h3>
-                    <p><strong>May 2025</strong></p>
-                    <ul>
-                        <li>Developed ML-based differential distinguishers for ASCON permutation using CNN, LSTM, and LightGBM</li>
-                        <li>Generated 100,000 data samples with equal split between random and real data</li>
-                        <li>Achieved 100%, 100%, and 94.52% test accuracy for rounds 1–3</li>
-                    </ul>
-                    <div class="skill-container">
-                        <span class="badge badge-blue">Python</span>
-                        <span class="badge badge-green">TensorFlow</span>
-                        <span class="badge badge-purple">PyTorch</span>
-                        <span class="badge badge-orange">Machine Learning</span>
-                    </div>
-                </div>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-                <div class="project-card">
-                    <h3 class="project-title">BankBrain – Cloud-Ready Microservices Banking Backend</h3>
-                    <p><strong>March 2025</strong></p>
-                    <ul>
-                        <li>Designed modular microservices architecture using Python and FastAPI</li>
-                        <li>Implemented MCP-driven multi-agent system</li>
-                        <li>Developed in-memory end-to-end smoke testing framework</li>
-                    </ul>
-                    <div class="skill-container">
-                        <span class="badge badge-blue">Python</span>
-                        <span class="badge badge-green">FastAPI</span>
-                        <span class="badge badge-purple">Docker</span>
-                        <span class="badge badge-orange">Kubernetes</span>
-                    </div>
-                </div>
+</div>
 
-                <div class="project-card">
-                    <h3 class="project-title">Multimedia Database System</h3>
-                    <p><strong>April 2025</strong></p>
-                    <ul>
-                        <li>Developed full-stack application with Node.js, Express.js, and SQLite</li>
-                        <li>Implemented strong security features including JWT and bcrypt</li>
-                        <li>Built system supporting multi-format media with real-time communication</li>
-                    </ul>
-                    <div class="skill-container">
-                        <span class="badge badge-blue">Node.js</span>
-                        <span class="badge badge-green">Express.js</span>
-                        <span class="badge badge-purple">SQLite</span>
-                        <span class="badge badge-orange">Socket.IO</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+## About Me
 
-        <!-- Skills -->
-        <div class="section">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skill-container">
-                <div class="skill-name">
-                    <span>Programming Languages</span>
-                </div>
-                <p>C, C++, Python, SQL, HTML/CSS, Verilog, Assembly</p>
-            </div>
-            
-            <div class="skill-container">
-                <div class="skill-name">
-                    <span>Frameworks & Libraries</span>
-                </div>
-                <p>Pandas, NumPy, Matplotlib, PyTorch, Tkinter, C++ STL</p>
-            </div>
-            
-            <div class="skill-container">
-                <div class="skill-name">
-                    <span>Databases & Tools</span>
-                </div>
-                <p>SQLite, PostgreSQL, Git, GitHub, VS Code, Docker, MongoDB, Kubernetes</p>
-            </div>
-            
-            <div class="skill-container">
-                <div class="skill-name">
-                    <span>Core Competencies</span>
-                </div>
-                <p>Data Structures & Algorithms, Web Development, Object-Oriented Design</p>
-            </div>
-        </div>
+<div align="center">
 
-        <!-- Awards & Certifications -->
-        <div class="section">
-            <h2 class="section-title">Awards & Certifications</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3 class="project-title">Academic Excellence</h3>
-                    <ul>
-                        <li>All India Category Rank 16 in JEE Advanced</li>
-                        <li>Expert rating (1654) on Codeforces</li>
-                        <li>Ranked 27th out of 27,876 in Codeforces Round 1043</li>
-                        <li>Recipient of FFE Scholarship (2022–2027)</li>
-                    </ul>
-                </div>
-                
-                <div class="project-card">
-                    <h3 class="project-title">Certifications</h3>
-                    <ul>
-                        <li>AWS Certified: Machine Learning Foundations</li>
-                        <li>NTSE Scholar – National Talent Search Examination</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+### Indian Institute of Technology Kharagpur
+*Premier Technical Institute | Est. 1951 | Top 5 IIT*
 
-        <!-- Coursework -->
-        <div class="section">
-            <h2 class="section-title">Relevant Coursework</h2>
-            <div class="skill-container">
-                <p>Programming and Data Structures, Algorithms, Systems Programming, Computer Networks, Database Management Systems, Operating Systems, Machine Learning, Artificial Intelligence, Scalable Data Mining, Probability and Statistics</p>
-            </div>
-        </div>
+<img src="https://img.shields.io/badge/Computer_Science_&_Engineering-B.Tech_+_M.Tech-FF6B35?style=for-the-badge&logo=googlescholar&logoColor=white">
+<img src="https://img.shields.io/badge/Duration-2022--2027-1976D2?style=for-the-badge&logo=calendar&logoColor=white">
+<img src="https://img.shields.io/badge/Dual_Degree-5_Years-06FFA5?style=for-the-badge&logo=graduation-cap&logoColor=white">
 
-        <!-- Footer -->
-        <div class="footer">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/deepesh1singh" style="color: inherit; text-decoration: none;">GitHub Portfolio</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-globe"></i>
-                    <a href="https://deepesh1singh.github.io/Deepesh-Portfolio/" style="color: inherit; text-decoration: none;">Personal Website</a>
-                </div>
-            </div>
-            
-            <p class="quote">"Code is poetry written in logic, and every bug is a haiku waiting to be debugged."</p>
-            
-            <p style="margin-top: 30px; color: #64748b;">© 2024 Deepesh Singh. All animations created with pure CSS.</p>
-        </div>
-    </div>
+</div>
 
-    <script>
-        // Add scroll animations
-        document.addEventListener('DOMContentLoaded', function() {
-            const sections = document.querySelectorAll('.section');
-            
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.animationPlayState = 'running';
-                    }
-                });
-            }, { threshold: 0.1 });
-            
-            sections.forEach(section => {
-                observer.observe(section);
-            });
-            
-            // Skill bar animations on scroll
-            const skillBars = document.querySelectorAll('.skill-level');
-            const skillObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.animationPlayState = 'running';
-                    }
-                });
-            }, { threshold: 0.5 });
-            
-            skillBars.forEach(bar => {
-                skillObserver.observe(bar);
-            });
-            
-            // Typewriter effect for multiple lines
-            const typewriterTexts = [
-                "Software Engineer & IIT Kharagpur Student",
-                "Machine Learning Enthusiast",
-                "Full Stack Developer",
-                "Problem Solver"
-            ];
-            
-            let currentTextIndex = 0;
-            const typingElement = document.querySelector('.typing-text');
-            
-            function typeWriter(text, i, callback) {
-                if (i < text.length) {
-                    typingElement.innerHTML = text.substring(0, i + 1);
-                    setTimeout(() => typeWriter(text, i + 1, callback), 100);
-                } else if (callback) {
-                    setTimeout(callback, 1500);
-                }
-            }
-            
-            function startTypingAnimation() {
-                typeWriter(typewriterTexts[currentTextIndex], 0, () => {
-                    currentTextIndex = (currentTextIndex + 1) % typewriterTexts.length;
-                    setTimeout(startTypingAnimation, 500);
-                });
-            }
-            
-            // Start the typing animation after initial load
-            setTimeout(startTypingAnimation, 2000);
-        });
-    </script>
-</body>
-</html>
+Pursuing an integrated B.Tech and M.Tech in Computer Science and Engineering at IIT Kharagpur. Solid expertise in data structures and algorithms, web development, and applied machine learning, with a passion for tackling challenging problems.
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## Featured Projects Showcase
+
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=06FFA5&background=00000000&center=true&vCenter=true&width=600&height=60&lines=Projects" alt="Projects Typing SVG" />
+</div>
+
+### Machine Learning-Based Differential Cryptanalysis of ASCON Permutation
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Explore_Repository-ML_ASCON_Cryptanalysis-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/ML-Cryptanalysis)
+<img src="https://img.shields.io/badge/Status-Research_Complete-FFD23F?style=for-the-badge&logo=flask&logoColor=black">
+
+</div>
+
+**Advanced machine learning approach to cryptanalysis of the ASCON permutation**
+
+<details>
+<summary><strong>Technical Details & Performance</strong></summary>
+<br>
+
+```yaml
+Research Focus:
+  ├── Target: ASCON permutation (lightweight cryptography)
+  ├── Approach: ML-based differential distinguishers
+  ├── Models: CNN, LSTM, LightGBM
+  └── Dataset: 100,000 samples (50% random, 50% real)
+
+Data Preprocessing:
+  ├── CNN/LSTM: Decimal to 3D binary vectors
+  └── LightGBM: Decimal to 2D binary matrices
+
+Performance Metrics:
+  ├── Round 1: 100% accuracy (CNN, LSTM, LGBM)
+  ├── Round 2: 100% accuracy (CNN, LSTM, LGBM)
+  ├── Round 3: 94.52% accuracy (LGBM)
+  └── Rounds 4-5: ~50% accuracy (approaching random)
+
+Key Achievements:
+  ├── Successful detection of non-random patterns
+  ├── Multi-model comparative analysis
+  └── Identification of distinguisher limits
+```
+
+**Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+
+</details>
+
+---
+
+### BankBrain – Cloud-Ready Microservices Banking Backend
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Explore_Repository-BankBrain-0693E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh)
+<img src="https://img.shields.io/badge/Status-Production_Ready-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
+
+</div>
+
+**Cloud-native banking backend with MCP-driven multi-agent architecture**
+
+<details>
+<summary><strong>Technical Architecture & Features</strong></summary>
+<br>
+
+```yaml
+Architecture:
+  ├── Pattern: Microservices
+  ├── Framework: FastAPI (Python)
+  ├── Containerization: Docker
+  └── Orchestration: Kubernetes-ready
+
+Multi-Agent System (MCP):
+  ├── Support Agent: Customer assistance
+  ├── A2A Gateway: Account-to-account transfers
+  └── Risk Agents: Transaction monitoring
+
+Testing Framework:
+  ├── Type: In-memory end-to-end smoke tests
+  ├── Tool: FastAPI TestClient
+  └── Coverage: Complete workflow validation
+
+Integration Features:
+  ├── Mock Banking APIs
+  ├── Tool-calling workflows
+  └── Secure transaction retrieval
+
+Key Features:
+  ├── Modular design for scalability
+  ├── Cloud-ready deployment
+  ├── Comprehensive testing suite
+  └── Secure transaction processing
+```
+
+**Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
+
+</details>
+
+---
+
+### Multimedia Database System
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Explore_Repository-Multimedia_Database-F7931E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/multimedia-database-system)
+<img src="https://img.shields.io/badge/Status-Feature_Complete-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
+
+</div>
+
+**Full-stack multimedia content management system with real-time communication**
+
+<details>
+<summary><strong>Technical Architecture & Features</strong></summary>
+<br>
+
+```yaml
+Supported Media Types:
+  ├── Books
+  ├── Videos
+  ├── Music
+  ├── Images
+  ├── Articles
+  ├── Newspapers
+  └── Games
+
+Security Features:
+  ├── bcrypt: Password hashing
+  ├── JWT: Token-based authentication
+  ├── Helmet: Security headers
+  ├── CORS: Cross-origin resource sharing
+  ├── Rate Limiting: Request throttling
+  └── Input Validation: Data sanitization
+
+Database Architecture:
+  ├── ORM: Sequelize
+  ├── Database: SQLite
+  └── Features: Efficient queries & indexing
+
+Real-time Features:
+  ├── Socket.IO: Live communication
+  ├── Automated metadata extraction
+  └── File optimization for efficient storage
+
+Frontend:
+  └── Bootstrap: Responsive design
+```
+
+**Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white">
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+
+</details>
+
+---
+
+### Event Management System
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Explore_Repository-Event_Management_System-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh/Event-Management-System)
+<img src="https://img.shields.io/badge/Status-Production_Ready-06FFA5?style=for-the-badge&logo=checkmarx&logoColor=white">
+
+</div>
+
+**Enterprise-grade event management platform with role-based access control**
+
+<details>
+<summary><strong>Technical Architecture & Features</strong></summary>
+<br>
+
+```yaml
+Architecture:
+  ├── Pattern: MVC (Model-View-Controller)
+  ├── API Design: RESTful endpoints
+  └── Database: MongoDB (NoSQL)
+
+User Roles:
+  ├── Manager: Full system access
+  ├── Vendor: Service management
+  ├── Accountant: Financial oversight
+  └── Customer: Event participation
+
+Core Features:
+  ├── Event creation & management
+  ├── Ticket booking system
+  ├── Payment processing
+  ├── PDF ticket generation
+  └── Automated email notifications
+
+Security Implementation:
+  ├── JWT: Token-based authorization
+  ├── bcrypt: Secure password hashing
+  ├── CORS: Cross-origin protection
+  ├── dotenv: Environment configuration
+  └── Structured access control
+
+Additional Features:
+  ├── Reporting & analytics
+  ├── User management workflows
+  └── Modular architecture for scalability
+```
+
+**Tech Stack:**
+<br>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink">
+<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black">
+
+</details>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## Technology Arsenal
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Mastering+the+Art+of+Code" alt="Tech Typing SVG" />
+
+### Core Development Stack
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="75" height="75" />
+<br><strong>C++</strong>
+</td>
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="75" height="75" />
+<br><strong>Python</strong>
+</td>
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="75" height="75" />
+<br><strong>JavaScript</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=c" width="75" height="75" />
+<br><strong>C</strong>
+</td>
+</tr>
+</table>
+
+### Frontend Development
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=html" width="75" height="75" />
+<br><strong>HTML5</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=css" width="75" height="75" />
+<br><strong>CSS3</strong>
+</td>
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="75" height="75" />
+<br><strong>React</strong>
+</td>
+</tr>
+</table>
+
+### Backend Development
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=nodejs" width="75" height="75" />
+<br><strong>Node.js</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=express" width="75" height="75" />
+<br><strong>Express.js</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=postgresql" width="75" height="75" />
+<br><strong>PostgreSQL</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=sqlite" width="75" height="75" />
+<br><strong>SQLite</strong>
+</td>
+</tr>
+</table>
+
+### Machine Learning & Data Science
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=pytorch" width="75" height="75" />
+<br><strong>PyTorch</strong>
+</td>
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="75" height="75" />
+<br><strong>Pandas</strong>
+</td>
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="75" height="75" />
+<br><strong>NumPy</strong>
+</td>
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="75" height="75" />
+<br><strong>Matplotlib</strong>
+</td>
+</tr>
+</table>
+
+### Development Tools & Platforms
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="75" height="75" />
+<br><strong>GitHub</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=git" width="75" height="75" />
+<br><strong>Git</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=vscode" width="75" height="75" />
+<br><strong>VS Code</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=docker" width="75" height="75" />
+<br><strong>Docker</strong>
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## Awards and Achievements
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FFD23F&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Achievements+%26+Recognition" alt="Awards Typing SVG" />
+
+</div>
+
+- **JEE Advanced 2022**: All India Category Rank 16
+- **Codeforces**: Expert rating (1654)
+- **Codeforces Round 1042 (Div. 3)**: Ranked 495th out of 48,643 participants
+- **Codeforces Round 1043 (Div. 3)**: Ranked 27th out of 27,876 participants
+- **FFE Scholarship**: Recipient (2022–2027)
+- **AWS Certified**: Machine Learning Foundations (AWS Educate)
+- **NTSE Scholar**: National Talent Search Examination, NCERT
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+## Connect With Me
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=FF6B35&background=00000000&center=true&vCenter=true&width=500&height=50&lines=Let's+Connect" alt="Connect Typing SVG" />
+
+<table>
+<tr>
+<td align="center">
+<a href="mailto:deepesh002singh@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</td>
+<td align="center">
+<a href="https://linkedin.com/in/deepesh-singh-82a251252" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/deepesh1singh" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</td>
+<td align="center">
+<a href="https://deepesh1singh.github.io/Deepesh-Portfolio/" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"/>
+</a>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:0693E3&height=120&section=footer&animation=twinkling" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=4000&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=800&height=50&lines=Thanks+for+visiting+my+profile!;Let's+connect+and+build+amazing+things+together!;Feel+free+to+explore+my+repositories;Always+open+to+collaboration+and+learning" alt="Footer Typing SVG" />
+
+<img src="https://komarev.com/ghpvc/?username=deepesh1singh&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile Views">
+
+### *"Code is poetry written in logic, and every bug is a haiku waiting to be debugged."*
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
+
+</div>
