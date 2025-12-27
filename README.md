@@ -286,10 +286,6 @@ Programming Languages
 <img src="https://skillicons.dev/icons?i=postgres" width="75" height="75" />
 <br><strong>SQL</strong>
 </td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="75" height="75" />
-<br><strong>TypeScript</strong>
-</td>
 </tr>
 </table>
 Frameworks & Libraries
@@ -298,14 +294,6 @@ Frameworks & Libraries
 <td align="center" width="120">
 <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="75" height="75" />
 <br><strong>React</strong>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=nodejs" width="75" height="75" />
-<br><strong>Node.js</strong>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=express" width="75" height="75" />
-<br><strong>Express</strong>
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=pytorch" width="75" height="75" />
@@ -325,16 +313,8 @@ Frameworks & Libraries
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="75" height="75" />
 <br><strong>Matplotlib</strong>
 </td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=tailwind" width="75" height="75" />
-<br><strong>Tailwind CSS</strong>
-</td>
 </tr>
 <tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=vite" width="75" height="75" />
-<br><strong>Vite</strong>
-</td>
 </tr>
 </table>
 Databases
