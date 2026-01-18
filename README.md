@@ -398,8 +398,6 @@ Core Competencies
 - **Codeforces**: Expert rating (1654)
 - **Codeforces Round 1042 (Div. 3)**: Ranked 495th out of 48,643 participants
 - **Codeforces Round 1043 (Div. 3)**: Ranked 27th out of 27,876 participants
-- **AWS Certified**: Machine Learning Foundations (AWS Educate)
-
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ## Connect With Me
