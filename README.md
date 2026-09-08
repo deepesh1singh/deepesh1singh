@@ -1,737 +1,427 @@
-
 <div align="center">
 
-# Deepesh Singh
+<img src="banners/header.png" width="100%" alt="Deepesh Singh — Indian Institute of Technology Kharagpur, Department of Computer Science and Engineering" />
 
-**Indian Institute of Technology Kharagpur**
-Department of Computer Science and Engineering
+<br />
 
-<br/>
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepesh1singh)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-deepesh1singh-0a0e14?style=flat-square&logo=github&logoColor=e8ecf1)](https://github.com/deepesh1singh)
+&nbsp;
+[![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20(1654)-0a0e14?style=flat-square&logo=codeforces&logoColor=c9a961)](https://codeforces.com/)
+&nbsp;
+![Focus](https://img.shields.io/badge/Focus-Quant%20%C2%B7%20ML%20%C2%B7%20Systems-0a0e14?style=flat-square)
 
 </div>
 
-<br/>
+<br />
 
 ## About
 
-I build systems, ML, and full-stack projects spanning computer architecture, operating systems, networking, cryptanalysis, and applied machine learning — with a focus on performance, correctness, and clean engineering.
+Final-year Computer Science Dual Degree (B.Tech + M.Tech) student at IIT Kharagpur (Class of 2027), working across quantitative systems, applied machine learning, and cryptanalysis research. Core research contribution is on neural differential distinguishers for lightweight ciphers — work that has surpassed published benchmarks on ASCON and Simeck, supervised by Prof. Dipanwita Roy Chowdhury.
 
-<br/>
+Below is a categorized index of project work spanning quantitative finance infrastructure, machine learning research, operating-systems internals, network protocol implementation, and full-stack platforms.
 
-## 📂 Projects
+<br />
 
-<br/>
+## Index
 
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/cplusplus/cplusplus.png" width="90" height="90" alt="Cache-Aware Performance Optimization using gem5 and RISC-V icon"/>
-</td>
-<td valign="middle">
+| Section | Focus |
+|---|---|
+| [Quantitative Finance](#quantitative-finance) | Matching engines, benchmarking, market microstructure |
+| [Machine Learning & Research](#machine-learning--research) | Cryptanalysis, NLP, retrieval, applied ML |
+| [Systems & Operating Systems](#systems--operating-systems) | Concurrency, memory management, cache/architecture |
+| [Networking & Protocols](#networking--protocols) | Transport-layer and socket-level protocol design |
+| [Full-Stack Development](#full-stack-development) | End-to-end platforms and applications |
 
-### [Cache-Aware Performance Optimization using gem5 and RISC-V](https://github.com/deepesh1singh/Cache-Aware-Performance-Optimization-using-gem5-and-RISC-V)
+<br />
 
-Uses gem5 simulation to study how L1/L2 cache size and associativity affect performance, running parameter sweeps and comparing simple vs. cache-aware chunked merge sort.
-
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square) ![gem5](https://img.shields.io/badge/gem5-6c757d?style=flat-square) ![Computer Architecture](https://img.shields.io/badge/Computer%20Architecture-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
+## Quantitative Finance
 
 <table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/machine-learning/machine-learning.png" width="90" height="90" alt="Machine Learning in Cryptanalysis icon"/>
-</td>
-<td valign="middle">
+<tr><td>
 
-### [Machine Learning in Cryptanalysis](https://github.com/deepesh1singh/ML-Cryptanalysis)
+<img src="banners/p07.png" width="100%" alt="Limit Order Book Simulator" />
 
-Applies ML and statistical pattern recognition to attack classical ciphers (Caesar, Vigenère, substitution) using Random Forest, SVM, and Neural Networks on character-frequency and n-gram features.
+**[Limit Order Book Simulator](https://github.com/deepesh1singh/Limit-Order-Book-Matching-Engine)**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-6c757d?style=flat-square) ![Cryptanalysis](https://img.shields.io/badge/Cryptanalysis-6c757d?style=flat-square)
+A production-style C++20 matching engine simulating electronic exchange mechanics under strict price-time priority. Supports multiple order types, full order lifecycle management, self-trade prevention, multithreaded order processing, historical replay, live statistics, and validation through fuzz testing and sanitizer-based checks.
 
-</td>
-</tr>
+</td></tr>
+<tr><td>
+
+<img src="banners/p22.png" width="100%" alt="High-Performance Financial Data Processing" />
+
+**[High-Performance Financial Data Processing](https://github.com/deepesh1singh/High-Performance-Financial-Data-Processing)**
+
+A benchmark comparing Pure Python, NumPy, Polars, and C++ for processing millions of financial market records, evaluating as-of joins and trading analytics on datasets up to 5M trades. Uses isolated subprocess timing and cross-implementation correctness validation; the C++ implementation achieved a 15.5&times; reduction in execution time and 3.7&times; lower memory usage than pure Python at 2M trades.
+
+</td></tr>
 </table>
 
+<br />
+
+## Machine Learning & Research
 
 <table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/operating-system/operating-system.png" width="90" height="90" alt="Resource Allocation and Deadlock Avoidance icon"/>
-</td>
-<td valign="middle">
+<tr><td>
 
-### [Resource Allocation and Deadlock Avoidance](https://github.com/deepesh1singh/Resource-Allocation-and-Deadlock-Avoidance)
+<img src="banners/p27.png" width="100%" alt="Hybrid CNN-LSTM Differential Distinguishers" />
 
-Simulates concurrent resource allocation across threads, comparing normal allocation with deadlock avoidance via the Banker's Algorithm using POSIX threads and synchronization primitives.
+**[Hybrid CNN-LSTM Differential Distinguishers for Ciphers](https://github.com/deepesh1singh/Hybrid-CNN-LSTM-differential-distinguisher-for-ASCON-ACE-SIMECK-LLBC-and-future-ciphers)**
 
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Operating Systems](https://img.shields.io/badge/Operating%20Systems-6c757d?style=flat-square) ![Concurrency](https://img.shields.io/badge/Concurrency-6c757d?style=flat-square)
+Developed and evaluated eight neural architectures for differential cryptanalysis of the ASCON permutation, then designed a hybrid CNN&ndash;LSTM distinguisher reaching 6 rounds for ASCON, ACE, and FUTURE, 19 rounds for Simeck, and 10/4 rounds for LLBC-128/256. The model extended attack depth from 4 to 6 rounds on ASCON and from 12 to 19 rounds on Simeck, outperforming existing neural-based distinguishers on both ciphers.
 
-</td>
-</tr>
+</td></tr>
+<tr><td>
+
+<img src="banners/p09.png" width="100%" alt="Differential Distinguishers for ASCON Permutation" />
+
+**[Differential Distinguishers for ASCON Permutation](https://github.com/deepesh1singh/Differential-distinguishers-for-ASCON-permutation)**
+
+Investigates machine-learning-based cryptanalysis of the ASCON lightweight cryptographic permutation, training and comparing LightGBM, CNN, and LSTM models to distinguish differential ciphertext pairs from random pairs across 1&ndash;5 rounds &mdash; achieving over 99% test accuracy for 1&ndash;3 rounds.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p02.png" width="100%" alt="Machine Learning in Cryptanalysis" />
+
+**[Machine Learning in Cryptanalysis](https://github.com/deepesh1singh/ML-Cryptanalysis)**
+
+Applies machine learning and statistical pattern recognition to analyze classical ciphers such as Caesar, Vigen&egrave;re, and substitution ciphers. Generates encrypted datasets, extracts character-frequency and n-gram features, and trains Random Forest, SVM, and Neural Network models to identify cipher patterns.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p18.png" width="100%" alt="Speech Emotion Recognition" />
+
+**[Speech Emotion Recognition](https://github.com/deepesh1singh/Speech-Emotion-Recognition-using-CNN-on-Cross-Cultural-Audio-Data)**
+
+A TensorFlow-based CNN system classifying speech into 9 emotion categories using European and Indian audio datasets. Uses Mel-spectrogram feature extraction, actor-aware data splitting, augmentation, and mixed-precision training &mdash; achieving 86.52% test accuracy and a 0.89 macro F1-score on 653 test samples.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p36.png" width="100%" alt="Approximate Nearest Neighbor Search" />
+
+**[Approximate Nearest Neighbor Search (LSH & HNSW)](https://github.com/deepesh1singh/Approximate-Nearest-Neighbor-Search-Implementation-with-LSH-and-HNSW)**
+
+Implements and evaluates ANN search using Locality-Sensitive Hashing and Hierarchical Navigable Small World graphs in Python, comparing approaches on Recall@5/10/15 and query latency to analyze the accuracy&ndash;speed trade-off across configurations.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p04.png" width="100%" alt="Efficient Re-ranking with Cross-Encoders via Early Exit" />
+
+**[Efficient Re-ranking with Cross-Encoders via Early Exit](https://github.com/deepesh1singh/cross-encoder-early-exit-reranking)**
+
+An information retrieval project improving cross-encoder-based document re-ranking efficiency via early-exit techniques, evaluating how early stopping and ranked-list truncation reduce computational cost while maintaining retrieval effectiveness across in-domain and out-of-domain datasets.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p12.png" width="100%" alt="Neuro-Symbolic Legal Reasoning Benchmarks" />
+
+**[Construction of Benchmark Datasets for Neuro-Symbolic Legal Reasoning](https://github.com/deepesh1singh/Multi-Agent-Framework-with-Formalized-Knowledge-Representations-)**
+
+Converts statutory text into machine-interpretable benchmark datasets containing variables, grounded predicates, logical rules, and supporting legal spans. Develops automated benchmark-generation pipelines for the SARA and COLIEE legal datasets with structured JSON/Excel outputs.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p08.png" width="100%" alt="Customer Churn Prediction using XGBoost" />
+
+**[Customer Churn Prediction using XGBoost](https://github.com/deepesh1singh/Bias-Variance-Model-)**
+
+A machine learning classification project predicting telecom customer churn through data preprocessing, categorical feature encoding, and hyperparameter tuning with RandomizedSearchCV &mdash; achieving 0.85 validation AUC.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p37.png" width="100%" alt="ML Model Comparison using PyTorch and Apache Spark" />
+
+**[Machine Learning Model Comparison using PyTorch and Apache Spark](https://github.com/deepesh1singh/Machine-Learning-Model-Comparison-using-PyTorch-and-Spark)**
+
+Compares machine learning models across PyTorch and Apache Spark, analyzing performance via Mean Squared Error and visualizing the impact of parameters and activation functions through reproducible Jupyter Notebook implementations.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p38.png" width="100%" alt="Large-Scale Multi-Label Text Classification" />
+
+**[Large-Scale Multi-Label Text Classification with PyTorch](https://github.com/deepesh1singh/Large-Scale-Multi-Label-Text-Classification-with-PyTorch)**
+
+A large-scale multi-label text classifier on the Amazon-670K dataset (135,909-dimensional TF-IDF features, 670,091 labels), using a sparse low-rank classifier with rank-128 projection and memory-efficient label chunking, benchmarked across SGD, SGD with Momentum/Nesterov, and Adadelta.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p05.png" width="100%" alt="Review AI - Resume Analyzer and Interview Prep System" />
+
+**[Review AI &mdash; Intelligent Resume Analyzer & Interview Prep System](https://github.com/deepesh1singh/AI-Powered-Resume-Analyzer-Interview-Prep-Platform)**
+
+A full-stack AI-powered application analyzing a resume against a job description to generate a match score, skill-gap analysis, technical and behavioral interview questions, and a personalized preparation plan, with resume PDF generation and interview-report history.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p20.png" width="100%" alt="AI Job Assistant" />
+
+**[AI Job Assistant](https://github.com/deepesh1singh/AI-Job-Assistant)**
+
+A full-stack AI-powered job analysis platform using Sentence Transformers (MPNet) to semantically match job descriptions with resumes, identify matched/missing skills, generate resume insights and cover letters, and track applications through a cross-browser extension for LinkedIn, Indeed, Naukri, and Glassdoor.
+
+</td></tr>
 </table>
 
+<br />
+
+## Systems & Operating Systems
 
 <table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="Efficient Re-ranking with Cross-Encoders via Early Exit icon"/>
-</td>
-<td valign="middle">
+<tr><td>
 
-### [Efficient Re-ranking with Cross-Encoders via Early Exit](https://github.com/deepesh1singh/cross-encoder-early-exit-reranking)
+<img src="banners/p01.png" width="100%" alt="Cache-Aware Performance Optimization using gem5 and RISC-V" />
 
-Improves cross-encoder document re-ranking efficiency using early-exit techniques, evaluating cost vs. retrieval effectiveness across in-domain and out-of-domain datasets.
+**[Cache-Aware Performance Optimization using gem5 and RISC-V](https://github.com/deepesh1singh/Cache-Aware-Performance-Optimization-using-gem5-and-RISC-V)**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Information Retrieval](https://img.shields.io/badge/Information%20Retrieval-6c757d?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-6c757d?style=flat-square)
+A computer architecture project using gem5 simulation to study how L1/L2 cache size and associativity affect performance. Performs parameter sweeps, analyzes hit rates and Pareto-optimal configurations, and compares simple versus cache-aware chunked merge sort to study memory-access-pattern effects.
 
-</td>
-</tr>
+</td></tr>
+<tr><td>
+
+<img src="banners/p19.png" width="100%" alt="High-Performance Cache Optimization and Memory Analysis" />
+
+**[High-Performance Cache Optimization and Memory Analysis](https://github.com/deepesh1singh/High-Performance-Cache-Optimization-and-Memory-Analysis)**
+
+A systems performance project evaluating cache optimization and memory hierarchy behavior using C, Linux perf, Python, and CACTI &mdash; analyzing loop interchange and cache blocking, and studying access time and read energy across cache sizes and associativities.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p11.png" width="100%" alt="Virtual Memory Simulation with Approximate LRU" />
+
+**[Virtual Memory Simulation with Approximate LRU](https://github.com/deepesh1singh/Demand-Paging-Page-Replacement-Simulator)**
+
+A C-based virtual memory simulator modeling demand paging and page replacement across 128 concurrent processes, implementing page tables, shared physical frames, page-fault handling, and a 16-bit history-based Approximate LRU policy with a 4-tier frame selection strategy.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p32.png" width="100%" alt="Virtual Memory Simulation with LRU-Style Replacement" />
+
+**[Virtual Memory Simulation with LRU-Style Replacement](https://github.com/deepesh1singh/Virtual-Memory-Simulation-with-LRU-Style-Replacement)**
+
+A C-based virtual memory simulator modeling demand paging for processes performing binary searches over large logical arrays, implementing page-fault handling, fixed-frame allocation, and LRU-style replacement under constrained physical memory.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p31.png" width="100%" alt="Demand Paging Simulator (Binary Search and Swapping)" />
+
+**[Demand Paging Simulator (Binary Search + Swapping)](https://github.com/deepesh1singh/Demand-Paging-Simulator-Binary-Search-Swapping-)**
+
+A C-based demand paging simulator modeling memory management for concurrent processes performing binary searches on paged data, implementing page-fault handling, frame allocation, process-level swapping, and restoration under constrained memory.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p03.png" width="100%" alt="Resource Allocation and Deadlock Avoidance" />
+
+**[Resource Allocation and Deadlock Avoidance](https://github.com/deepesh1singh/Resource-Allocation-and-Deadlock-Avoidance)**
+
+An operating systems project simulating concurrent resource allocation among multiple threads, comparing normal allocation with deadlock avoidance via the Banker's Algorithm using POSIX threads, mutexes, condition variables, and barriers.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p15.png" width="100%" alt="CPU Scheduling Simulation" />
+
+**[CPU Scheduling Simulation (FCFS and Round Robin)](https://github.com/deepesh1singh/CPU-Scheduling-Simulation-FCFS-and-Round-Robin-)**
+
+A C-based event-driven simulator modeling process scheduling with CPU and I/O bursts, implementing FCFS and Round Robin scheduling with configurable time quanta and per-process performance reporting.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p28.png" width="100%" alt="Boating Simulation with Threads and Synchronization" />
+
+**[Boating Simulation with Threads and Synchronization](https://github.com/deepesh1singh/Boating-Simulation-with-Threads-and-Synchronization)**
+
+A C-based boating center simulation using POSIX threads and synchronization primitives to model concurrent boat and visitor activities, with synchronized visitor-to-boat assignment and controlled concurrent execution across multiple boats.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p29.png" width="100%" alt="Restaurant Simulation" />
+
+**[Restaurant Simulation (Processes, Shared Memory, Semaphores)](https://github.com/deepesh1singh/Restaurant-Simulation-Processes-Shared-Memory-Semaphores-)**
+
+A C-based restaurant simulation using multiple processes and System V IPC to model concurrent customers, waiters, and cooks, with shared memory for global state and semaphores for synchronization and resource management.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p30.png" width="100%" alt="Leader and Followers Using Shared Memory" />
+
+**[Leader and Followers Using Shared Memory](https://github.com/deepesh1singh/Leader-and-Followers-Using-Shared-Memory)**
+
+A C++17 leader-follower coordination system using multiple processes and System V shared memory, implementing turn-by-turn synchronization, shared-state coordination, and termination based on duplicate-sum detection.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p16.png" width="100%" alt="Signal-Based Child Process Game" />
+
+**[Signal-Based Child Process Game](https://github.com/deepesh1singh/Signal-Based-Child-Process-Game)**
+
+A C-based Linux process-management simulation modeling an elimination game using multiple child processes and Unix signals, using fork(), exec(), and SIGUSR1/SIGUSR2 for inter-process communication.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p17.png" width="100%" alt="Dependency-Based Rebuild Simulator" />
+
+**[Dependency-Based Rebuild Simulator](https://github.com/deepesh1singh/Dependency-Based-Rebuild-Simulator)**
+
+A C-based build-system simulator modeling dependency-driven module rebuilding, generating dependency graphs and recursively rebuilding modules using fork(), exec(), and waitpid(), with file-based state tracking.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p14.png" width="100%" alt="Distributed Sudoku with Processes and Pipes" />
+
+**[Distributed Sudoku with Processes and Pipes](https://github.com/deepesh1singh/Distributed-Sudoku-with-Processes-and-Pipes)**
+
+A C-based interactive Sudoku system distributing the 9 board blocks across independent processes, using POSIX pipes for inter-process communication with a coordinator process routing commands across block processes.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p13.png" width="100%" alt="Recursive File Finder" />
+
+**[Recursive File Finder](https://github.com/deepesh1singh/Recursive-file-finder-by-extension-find-all-)**
+
+A POSIX C utility for recursive directory traversal and case-insensitive file-extension matching, reporting file ownership, size, and full paths for discovered files.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p10.png" width="100%" alt="BankBrain Smoke Tests" />
+
+**[BankBrain Smoke Tests](https://github.com/deepesh1singh/BankBrain-Cloud-Ready-Microservices-Banking-Backend)**
+
+An end-to-end testing framework for a cloud-ready, multi-agent banking backend, validating integration across the Mock Bank API, MCP Server, Support Agent, and A2A Gateway using FastAPI TestClient with fully mocked network calls.
+
+</td></tr>
 </table>
 
+<br />
+
+## Networking & Protocols
 
 <table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="Review AI – Intelligent Resume Analyzer & Interview Prep System icon"/>
-</td>
-<td valign="middle">
+<tr><td>
 
-### [Review AI – Intelligent Resume Analyzer & Interview Prep System](https://github.com/deepesh1singh/AI-Powered-Resume-Analyzer-Interview-Prep-Platform)
+<img src="banners/p21.png" width="100%" alt="KTP KSocket" />
 
-Full-stack AI app that scores resumes against job descriptions, performs skill-gap analysis, generates interview questions and prep plans, and maintains report history.
+**[KTP KSocket](https://github.com/deepesh1singh/Custom-Network-Transport-Protocol-with-Sliding-Window-over-UDP)**
 
-![Full-Stack](https://img.shields.io/badge/Full--Stack-6c757d?style=flat-square) ![AI](https://img.shields.io/badge/AI-6c757d?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-6c757d?style=flat-square)
+A reliable transport protocol implemented over UDP in C, providing a socket-like API with sliding-window flow control, ACK-based reliability, timeout retransmissions, and out-of-order packet handling &mdash; using System V shared memory and POSIX threads to coordinate sender/receiver operations under simulated packet loss.
 
-</td>
-</tr>
+</td></tr>
+<tr><td>
+
+<img src="banners/p26.png" width="100%" alt="CLDP Raw Discovery" />
+
+**[CLDP Raw Discovery](https://github.com/deepesh1singh/CLDP-Raw-Discovery)**
+
+A custom network discovery protocol implemented directly over IPv4 raw sockets using experimental IP protocol number 253, defining custom HELLO, QUERY, and RESPONSE messages and handling packet construction and parsing at the IP layer.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p23.png" width="100%" alt="TCP File Encryption Client-Server" />
+
+**[TCP File Encryption Client-Server](https://github.com/deepesh1singh/TCP-File-Encryption-Client-Server)**
+
+A C-based client-server application transferring text files over TCP with server-side monoalphabetic substitution encryption, implementing chunked file transfer and encryption-key validation, with Wireshark captures used to inspect network traffic.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p39.png" width="100%" alt="UDP Word-by-Word File Transfer" />
+
+**[UDP Word-by-Word File Transfer (Client-Server)](https://github.com/deepesh1singh/UDP-Word-by-Word-File-Transfer-Client-Server-)**
+
+A C-based client-server file transfer system using UDP to transmit text files line by line through a custom application-layer protocol, implementing filename requests, sequential data requests, and explicit transfer termination.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p24.png" width="100%" alt="TaskQueue Server-Worker" />
+
+**[TaskQueue Server-Worker](https://github.com/deepesh1singh/TaskQueue-Server-Worker)**
+
+A C-based TCP task queue system distributing arithmetic tasks from a central server to multiple worker clients, supporting concurrent connections, task assignment, and task recovery when a worker disconnects mid-task.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p25.png" width="100%" alt="MiniSMTP" />
+
+**[MiniSMTP](https://github.com/deepesh1singh/MiniSMTP)**
+
+A C-based SMTP-like mail client-server system built on TCP sockets, implementing HELO, MAIL FROM, RCPT TO, and DATA commands with per-user mailbox storage and multi-client handling via POSIX threads.
+
+</td></tr>
 </table>
 
+<br />
+
+## Full-Stack Development
 
 <table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" width="90" height="90" alt="JobConnect Platform icon"/>
-</td>
-<td valign="middle">
+<tr><td>
 
-### [JobConnect Platform](https://github.com/deepesh1singh/Job-Plateform)
+<img src="banners/p33.png" width="100%" alt="Multimedia Database System" />
 
-Full-stack job recruitment platform connecting candidates and recruiters with profile management, applications, recommendations, and hiring pipeline tools.
+**[Multimedia Database System](https://github.com/deepesh1singh/multimedia-database-system)**
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square)
+A full-stack system managing books, videos, music, images, and articles using Node.js, Express.js, Sequelize, and SQLite. Implements JWT authentication, secure file uploads, advanced search, playlist management, real-time notifications with Socket.IO, and an admin analytics dashboard.
 
-</td>
-</tr>
+</td></tr>
+<tr><td>
+
+<img src="banners/p34.png" width="100%" alt="Event Management System" />
+
+**[Event Management System](https://github.com/deepesh1singh/Event-Management-System)**
+
+A full-stack event management platform with role-based access for managers, vendors, accountants, and customers, supporting ticket booking, payment processing, PDF ticket generation via Puppeteer, and revenue/expenditure reporting.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p06.png" width="100%" alt="JobConnect Platform" />
+
+**[JobConnect Platform](https://github.com/deepesh1singh/Job-Plateform)**
+
+A full-stack job recruitment platform connecting candidates and employers &mdash; supporting job discovery, profile management, and application tracking for candidates, and posting, search, and hiring-pipeline management for recruiters. Built with React, TypeScript, Node.js, Express, and MongoDB.
+
+</td></tr>
+<tr><td>
+
+<img src="banners/p35.png" width="100%" alt="Gram Panchayat Management System" />
+
+**[Gram Panchayat Management System](https://github.com/deepesh1singh/GRAM-PANCHAYAT-MANAGEMNT-SYSTEM)**
+
+A PHP-based system for digitizing citizen services and administrative workflows, with role-based dashboards for administrators, employees, monitors, and citizens, plus complaint management and structured server-side data operations.
+
+</td></tr>
 </table>
 
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/cplusplus/cplusplus.png" width="90" height="90" alt="Limit Order Book Simulator icon"/>
-</td>
-<td valign="middle">
-
-### [Limit Order Book Simulator](https://github.com/deepesh1singh/Limit-Order-Book-Matching-Engine)
-
-Production-style C++20 matching engine simulating exchange mechanics with strict price-time priority, multithreaded processing, historical replay, and sanitizer-based validation.
-
-![C++20](https://img.shields.io/badge/C++20-00599C?style=flat-square) ![Finance](https://img.shields.io/badge/Finance-6c757d?style=flat-square) ![Systems](https://img.shields.io/badge/Systems-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/machine-learning/machine-learning.png" width="90" height="90" alt="Customer Churn Prediction using XGBoost icon"/>
-</td>
-<td valign="middle">
-
-### [Customer Churn Prediction using XGBoost](https://github.com/deepesh1singh/Bias-Variance-Model-)
-
-ML classification pipeline predicting telecom customer churn with hyperparameter tuning via RandomizedSearchCV, achieving 0.85 validation AUC.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-6c757d?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="90" height="90" alt="Differential Distinguishers for ASCON Permutation icon"/>
-</td>
-<td valign="middle">
-
-### [Differential Distinguishers for ASCON Permutation](https://github.com/deepesh1singh/Differential-distinguishers-for-ASCON-permutation)
-
-ML-based cryptanalysis of the ASCON permutation using LightGBM, CNN, and LSTM models, achieving >99% test accuracy for 1–3 rounds.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-6c757d?style=flat-square) ![Cryptanalysis](https://img.shields.io/badge/Cryptanalysis-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="BankBrain Smoke Tests icon"/>
-</td>
-<td valign="middle">
-
-### [BankBrain Smoke Tests](https://github.com/deepesh1singh/BankBrain-Cloud-Ready-Microservices-Banking-Backend)
-
-End-to-end testing framework validating a multi-agent banking backend across Mock Bank API, MCP Server, Support Agent, and A2A Gateway using fully mocked network calls.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square) ![Testing](https://img.shields.io/badge/Testing-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/operating-system/operating-system.png" width="90" height="90" alt="Virtual Memory Simulation with Approximate LRU icon"/>
-</td>
-<td valign="middle">
-
-### [Virtual Memory Simulation with Approximate LRU](https://github.com/deepesh1singh/Demand-Paging-Page-Replacement-Simulator)
-
-C-based virtual memory simulator modeling demand paging across 128 processes with a 16-bit history-based Approximate LRU policy.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Operating Systems](https://img.shields.io/badge/Operating%20Systems-6c757d?style=flat-square) ![Memory Management](https://img.shields.io/badge/Memory%20Management-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="Construction of Benchmark Datasets for Neuro-Symbolic Legal Reasoning icon"/>
-</td>
-<td valign="middle">
-
-### [Construction of Benchmark Datasets for Neuro-Symbolic Legal Reasoning](https://github.com/deepesh1singh/Multi-Agent-Framework-with-Formalized-Knowledge-Representations-)
-
-Converts statutory text into machine-interpretable benchmark datasets with grounded predicates and logical rules for the SARA and COLIEE legal datasets.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-6c757d?style=flat-square) ![Legal Tech](https://img.shields.io/badge/Legal%20Tech-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Recursive File Finder icon"/>
-</td>
-<td valign="middle">
-
-### [Recursive File Finder](https://github.com/deepesh1singh/Recursive-file-finder-by-extension-find-all-)
-
-POSIX C utility for recursive directory traversal and case-insensitive extension matching, reporting ownership, size, and full paths.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![POSIX](https://img.shields.io/badge/POSIX-6E4C13?style=flat-square) ![CLI Tools](https://img.shields.io/badge/CLI%20Tools-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Distributed Sudoku with Processes and Pipes icon"/>
-</td>
-<td valign="middle">
-
-### [Distributed Sudoku with Processes and Pipes](https://github.com/deepesh1singh/Distributed-Sudoku-with-Processes-and-Pipes)
-
-Interactive Sudoku system distributing 9 board blocks across processes using POSIX pipes and a coordinator process for synchronization.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![IPC](https://img.shields.io/badge/IPC-6c757d?style=flat-square) ![Systems Programming](https://img.shields.io/badge/Systems%20Programming-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/operating-system/operating-system.png" width="90" height="90" alt="CPU Scheduling Simulation (FCFS & Round Robin) icon"/>
-</td>
-<td valign="middle">
-
-### [CPU Scheduling Simulation (FCFS & Round Robin)](https://github.com/deepesh1singh/CPU-Scheduling-Simulation-FCFS-and-Round-Robin-)
-
-Event-driven simulator modeling CPU/I-O bursts with FCFS and Round Robin scheduling, reporting per-process and aggregate metrics.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Operating Systems](https://img.shields.io/badge/Operating%20Systems-6c757d?style=flat-square) ![Scheduling](https://img.shields.io/badge/Scheduling-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Signal-Based Child Process Game icon"/>
-</td>
-<td valign="middle">
-
-### [Signal-Based Child Process Game](https://github.com/deepesh1singh/Signal-Based-Child-Process-Game)
-
-Linux process-management simulation of an elimination game using fork(), exec(), and SIGUSR1/SIGUSR2 signals for IPC.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square) ![IPC](https://img.shields.io/badge/IPC-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Dependency-Based Rebuild Simulator icon"/>
-</td>
-<td valign="middle">
-
-### [Dependency-Based Rebuild Simulator](https://github.com/deepesh1singh/Dependency-Based-Rebuild-Simulator)
-
-Build-system simulator modeling dependency-driven rebuilds using fork(), exec(), and waitpid() with file-based state tracking.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Build Systems](https://img.shields.io/badge/Build%20Systems-6c757d?style=flat-square) ![Concurrency](https://img.shields.io/badge/Concurrency-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="90" height="90" alt="Speech Emotion Recognition icon"/>
-</td>
-<td valign="middle">
-
-### [Speech Emotion Recognition](https://github.com/deepesh1singh/Speech-Emotion-Recognition-using-CNN-on-Cross-Cultural-Audio-Data)
-
-TensorFlow CNN classifying speech into 9 emotions across European and Indian datasets using Mel-spectrograms, achieving 86.52% test accuracy.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="High-Performance Cache Optimization and Memory Analysis icon"/>
-</td>
-<td valign="middle">
-
-### [High-Performance Cache Optimization and Memory Analysis](https://github.com/deepesh1singh/High-Performance-Cache-Optimization-and-Memory-Analysis)
-
-Evaluates cache optimization and memory hierarchy behavior using C, Linux perf, Python, and CACTI, analyzing loop interchange and cache blocking.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Performance](https://img.shields.io/badge/Performance-6c757d?style=flat-square) ![CACTI](https://img.shields.io/badge/CACTI-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="AI Job Assistant icon"/>
-</td>
-<td valign="middle">
-
-### [AI Job Assistant](https://github.com/deepesh1singh/AI-Job-Assistant)
-
-Full-stack AI platform matching resumes to job descriptions using Sentence Transformers, with a cross-browser extension for LinkedIn, Indeed, Naukri, and Glassdoor.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-6c757d?style=flat-square) ![Browser Extension](https://img.shields.io/badge/Browser%20Extension-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="KTP KSocket icon"/>
-</td>
-<td valign="middle">
-
-### [KTP KSocket](https://github.com/deepesh1singh/Custom-Network-Transport-Protocol-with-Sliding-Window-over-UDP)
-
-Reliable transport protocol over UDP with sliding-window flow control, ACK-based reliability, and retransmissions using shared memory and threads.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Networking](https://img.shields.io/badge/Networking-6c757d?style=flat-square) ![UDP](https://img.shields.io/badge/UDP-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/cplusplus/cplusplus.png" width="90" height="90" alt="High-Performance Financial Data Processing icon"/>
-</td>
-<td valign="middle">
-
-### [High-Performance Financial Data Processing](https://github.com/deepesh1singh/High-Performance-Financial-Data-Processing)
-
-Benchmarks Pure Python, NumPy, Polars, and C++ for processing millions of trades; C++ achieved 15.5× lower execution time than pure Python at 2M trades.
-
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Finance](https://img.shields.io/badge/Finance-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="TCP File Encryption Client-Server icon"/>
-</td>
-<td valign="middle">
-
-### [TCP File Encryption Client-Server](https://github.com/deepesh1singh/TCP-File-Encryption-Client-Server)
-
-C-based client-server app transferring files over TCP with server-side substitution encryption, analyzed using Wireshark captures.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Networking](https://img.shields.io/badge/Networking-6c757d?style=flat-square) ![Security](https://img.shields.io/badge/Security-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="TaskQueue Server-Worker icon"/>
-</td>
-<td valign="middle">
-
-### [TaskQueue Server-Worker](https://github.com/deepesh1singh/TaskQueue-Server-Worker)
-
-TCP task queue system distributing arithmetic tasks to worker clients with concurrent connections and task recovery on disconnect.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Distributed Systems](https://img.shields.io/badge/Distributed%20Systems-6c757d?style=flat-square) ![TCP](https://img.shields.io/badge/TCP-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="MiniSMTP icon"/>
-</td>
-<td valign="middle">
-
-### [MiniSMTP](https://github.com/deepesh1singh/MiniSMTP)
-
-SMTP-like mail client-server system over TCP implementing HELO, MAIL FROM, RCPT TO, and DATA with per-user mailbox storage.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Networking](https://img.shields.io/badge/Networking-6c757d?style=flat-square) ![SMTP](https://img.shields.io/badge/SMTP-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="CLDP Raw Discovery icon"/>
-</td>
-<td valign="middle">
-
-### [CLDP Raw Discovery](https://github.com/deepesh1singh/CLDP-Raw-Discovery)
-
-Custom network discovery protocol over IPv4 raw sockets, defining HELLO/QUERY/RESPONSE messages for node metadata exchange.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Raw Sockets](https://img.shields.io/badge/Raw%20Sockets-6c757d?style=flat-square) ![Networking](https://img.shields.io/badge/Networking-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="90" height="90" alt="Hybrid CNN-LSTM Differential Distinguisher for Ciphers icon"/>
-</td>
-<td valign="middle">
-
-### [Hybrid CNN-LSTM Differential Distinguisher for Ciphers](https://github.com/deepesh1singh/Hybrid-CNN-LSTM-differential-distinguisher-for-ASCON-ACE-SIMECK-LLBC-and-future-ciphers)
-
-Evaluated eight neural architectures for differential cryptanalysis; hybrid CNN-LSTM model extended attack depth from 4→6 rounds (ASCON) and 12→19 rounds (Simeck).
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-6c757d?style=flat-square) ![Cryptography](https://img.shields.io/badge/Cryptography-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Boating Simulation with Threads and Synchronization icon"/>
-</td>
-<td valign="middle">
-
-### [Boating Simulation with Threads and Synchronization](https://github.com/deepesh1singh/Boating-Simulation-with-Threads-and-Synchronization)
-
-C-based simulation modeling concurrent boat and visitor activities using POSIX threads and synchronization primitives.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Concurrency](https://img.shields.io/badge/Concurrency-6c757d?style=flat-square) ![Simulation](https://img.shields.io/badge/Simulation-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/c/c.png" width="90" height="90" alt="Restaurant Simulation (Processes, Shared Memory, Semaphores) icon"/>
-</td>
-<td valign="middle">
-
-### [Restaurant Simulation (Processes, Shared Memory, Semaphores)](https://github.com/deepesh1singh/Restaurant-Simulation-Processes-Shared-Memory-Semaphores-)
-
-Simulates concurrent customers, waiters, and cooks using System V IPC, shared memory, and semaphores for synchronization and resource management.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![IPC](https://img.shields.io/badge/IPC-6c757d?style=flat-square) ![Semaphores](https://img.shields.io/badge/Semaphores-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/cplusplus/cplusplus.png" width="90" height="90" alt="Leader and Followers Using Shared Memory icon"/>
-</td>
-<td valign="middle">
-
-### [Leader and Followers Using Shared Memory](https://github.com/deepesh1singh/Leader-and-Followers-Using-Shared-Memory)
-
-C++17 leader-follower coordination system using System V shared memory for turn-based synchronization and iterative sum computation.
-
-![C++17](https://img.shields.io/badge/C++17-00599C?style=flat-square) ![IPC](https://img.shields.io/badge/IPC-6c757d?style=flat-square) ![Concurrency](https://img.shields.io/badge/Concurrency-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/operating-system/operating-system.png" width="90" height="90" alt="Demand Paging Simulator (Binary Search + Swapping) icon"/>
-</td>
-<td valign="middle">
-
-### [Demand Paging Simulator (Binary Search + Swapping)](https://github.com/deepesh1singh/Demand-Paging-Simulator-Binary-Search-Swapping-)
-
-C-based simulator modeling memory management for processes performing binary search, with page-fault handling and process-level swapping.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Operating Systems](https://img.shields.io/badge/Operating%20Systems-6c757d?style=flat-square) ![Memory](https://img.shields.io/badge/Memory-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/operating-system/operating-system.png" width="90" height="90" alt="Virtual Memory Simulation with LRU-Style Replacement icon"/>
-</td>
-<td valign="middle">
-
-### [Virtual Memory Simulation with LRU-Style Replacement](https://github.com/deepesh1singh/Virtual-Memory-Simulation-with-LRU-Style-Replacement)
-
-C-based virtual memory simulator with fixed-frame allocation and LRU-style page replacement for concurrent binary search processes.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![Operating Systems](https://img.shields.io/badge/Operating%20Systems-6c757d?style=flat-square) ![LRU](https://img.shields.io/badge/LRU-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" width="90" height="90" alt="Multimedia Database System icon"/>
-</td>
-<td valign="middle">
-
-### [Multimedia Database System](https://github.com/deepesh1singh/multimedia-database-system)
-
-Full-stack multimedia platform with JWT auth, secure uploads, playlists, real-time notifications via Socket.IO, and admin analytics.
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" width="90" height="90" alt="Event Management System icon"/>
-</td>
-<td valign="middle">
-
-### [Event Management System](https://github.com/deepesh1singh/Event-Management-System)
-
-Full-stack event platform with role-based access, ticket booking, payments, PDF ticket generation, and revenue reporting.
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square) ![EJS](https://img.shields.io/badge/EJS-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="Gram Panchayat Management System icon"/>
-</td>
-<td valign="middle">
-
-### [Gram Panchayat Management System](https://github.com/deepesh1singh/GRAM-PANCHAYAT-MANAGEMNT-SYSTEM)
-
-PHP-based system digitizing citizen services with role-based dashboards for admins, employees, monitors, and citizens.
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square) ![Web](https://img.shields.io/badge/Web-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="90" height="90" alt="Approximate Nearest Neighbor Search with LSH and HNSW icon"/>
-</td>
-<td valign="middle">
-
-### [Approximate Nearest Neighbor Search with LSH and HNSW](https://github.com/deepesh1singh/Approximate-Nearest-Neighbor-Search-Implementation-with-LSH-and-HNSW)
-
-Implements and benchmarks ANN search using LSH and HNSW graphs, comparing Recall@K and query latency trade-offs.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Search](https://img.shields.io/badge/Search-6c757d?style=flat-square) ![Algorithms](https://img.shields.io/badge/Algorithms-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="90" height="90" alt="Machine Learning Model Comparison using PyTorch and Apache Spark icon"/>
-</td>
-<td valign="middle">
-
-### [Machine Learning Model Comparison using PyTorch and Apache Spark](https://github.com/deepesh1singh/Machine-Learning-Model-Comparison-using-PyTorch-and-Spark)
-
-Compares ML models across PyTorch and Spark, analyzing MSE and activation function impact through reproducible notebooks.
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square) ![ML](https://img.shields.io/badge/ML-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="90" height="90" alt="Large-Scale Multi-Label Text Classification with PyTorch icon"/>
-</td>
-<td valign="middle">
-
-### [Large-Scale Multi-Label Text Classification with PyTorch](https://github.com/deepesh1singh/Large-Scale-Multi-Label-Text-Classification-with-PyTorch)
-
-Sparse low-rank classifier on Amazon-670K (135K+ TF-IDF features, 670K labels), comparing SGD, Nesterov Momentum, and Adadelta optimizers.
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-6c757d?style=flat-square) ![Optimization](https://img.shields.io/badge/Optimization-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td width="160" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/networking/networking.png" width="90" height="90" alt="UDP Word-by-Word File Transfer (Client-Server) icon"/>
-</td>
-<td valign="middle">
-
-### [UDP Word-by-Word File Transfer (Client-Server)](https://github.com/deepesh1singh/UDP-Word-by-Word-File-Transfer-Client-Server-)
-
-C-based UDP file transfer system with a custom application-layer protocol, analyzed via packet captures.
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square) ![UDP](https://img.shields.io/badge/UDP-6c757d?style=flat-square) ![Networking](https://img.shields.io/badge/Networking-6c757d?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-
-<br/>
+<br />
 
 <div align="center">
 
-*Thanks for stopping by — feel free to explore the repositories above or reach out to collaborate.*
+<sub>39 repositories indexed above &middot; organized by primary technical domain</sub>
 
 </div>
