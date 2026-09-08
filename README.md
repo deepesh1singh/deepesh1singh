@@ -2,35 +2,11 @@
 
 <img src="banners/header.png" width="100%" alt="Deepesh Singh — Indian Institute of Technology Kharagpur, Department of Computer Science and Engineering" />
 
-<br />
-
-[![GitHub](https://img.shields.io/badge/GitHub-deepesh1singh-0a0e14?style=flat-square&logo=github&logoColor=e8ecf1)](https://github.com/deepesh1singh)
-&nbsp;
-[![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20(1654)-0a0e14?style=flat-square&logo=codeforces&logoColor=c9a961)](https://codeforces.com/)
-&nbsp;
-![Focus](https://img.shields.io/badge/Focus-Quant%20%C2%B7%20ML%20%C2%B7%20Systems-0a0e14?style=flat-square)
-
 </div>
-
-<br />
 
 ## About
 
-Final-year Computer Science Dual Degree (B.Tech + M.Tech) student at IIT Kharagpur (Class of 2027), working across quantitative systems, applied machine learning, and cryptanalysis research. Core research contribution is on neural differential distinguishers for lightweight ciphers — work that has surpassed published benchmarks on ASCON and Simeck, supervised by Prof. Dipanwita Roy Chowdhury.
-
-Below is a categorized index of project work spanning quantitative finance infrastructure, machine learning research, operating-systems internals, network protocol implementation, and full-stack platforms.
-
-<br />
-
-## Index
-
-| Section | Focus |
-|---|---|
-| [Quantitative Finance](#quantitative-finance) | Matching engines, benchmarking, market microstructure |
-| [Machine Learning & Research](#machine-learning--research) | Cryptanalysis, NLP, retrieval, applied ML |
-| [Systems & Operating Systems](#systems--operating-systems) | Concurrency, memory management, cache/architecture |
-| [Networking & Protocols](#networking--protocols) | Transport-layer and socket-level protocol design |
-| [Full-Stack Development](#full-stack-development) | End-to-end platforms and applications |
+Computer Science Dual Degree (B.Tech + M.Tech) student at IIT Kharagpur (Class of 2027).
 
 <br />
 
@@ -425,3 +401,21 @@ A PHP-based system for digitizing citizen services and administrative workflows,
 <sub>39 repositories indexed above &middot; organized by primary technical domain</sub>
 
 </div>
+
+<br />
+
+## GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=deepesh1singh&show_icons=true&hide=prs,issues&hide_rank=true&hide_title=true&bg_color=0a0e14&title_color=c9a961&text_color=e8ecf1&icon_color=c9a961&border_color=30363d" alt="Deepesh Singh's total GitHub contribution stats" />
+
+<br /><br />
+
+![Profile views](https://komarev.com/ghpvc/?username=deepesh1singh&label=Profile+Views&color=0a0e14&style=flat-square)
+
+</div>
+
+<br />
+
+<sub>**On the numbers above:** the card shows *total* contributions only. GitHub doesn't expose monthly or weekly contribution counts as a queryable number anywhere &mdash; the closest public equivalent is a 12-week activity chart image, not a figure, so a "monthly" or "weekly" count isn't something any badge can accurately show. The profile-views counter above counts every visit, including your own: GitHub routes all README images through its own proxy (Camo) before they reach the counting service, which strips out who made the request, so no counter &mdash; official or third-party &mdash; can tell your visits apart from anyone else's.</sub>
