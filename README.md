@@ -2,18 +2,6 @@
 
 <img src="banners/header.png" width="100%" alt="Deepesh Singh — Indian Institute of Technology Kharagpur, Department of Computer Science and Engineering" />
 
-<br />
-
-[![GitHub](https://img.shields.io/badge/GitHub-deepesh1singh-0a0e14?style=flat-square&logo=github&logoColor=e8ecf1)](https://github.com/deepesh1singh)
-&nbsp;
-[![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20(1654)-0a0e14?style=flat-square&logo=codeforces&logoColor=c9a961)](https://codeforces.com/)
-&nbsp;
-![Focus](https://img.shields.io/badge/Focus-Quant%20%C2%B7%20ML%20%C2%B7%20Systems-0a0e14?style=flat-square)
-
-</div>
-
-<br />
-
 <div align="center">
 
 ![About](https://img.shields.io/badge/About-0a0e14?style=for-the-badge)
