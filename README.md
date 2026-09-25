@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=40&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hii%2C+I+am+Deepesh+Singh" alt="Typing SVG" />
-</h1>
+</h1> 
 
 <p align="center" style="font-family: Georgia, serif;">
   I am a software engineering student at <b>IIT Kharagpur</b>, where I have completed both my <b>B.Tech.</b> and <b>M.Tech.</b><br/>
