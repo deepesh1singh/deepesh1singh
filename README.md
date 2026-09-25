@@ -18,29 +18,26 @@
 </p>
 
 <br/>
-
 <h2 align="center" style="font-family: Georgia, serif;">Coursework</h2>
 
 <div align="center">
 
-| Programming & Systems | Data, ML & AI |
-|:---|:---|
-| 🧑‍💻 Programming and Data Structures* | 🤖 Machine Learning |
-| 🧩 Algorithms* | 🧠 Artificial Intelligence |
-| ⚙️ Systems Programming* | 📊 Scalable Data Mining |
-| 🌐 Computer Networks* | 🎲 Probability and Statistics |
-| 🗄️ Database Management Systems* | 🔎 Information Retrieval |
-| 💻 Operating Systems* | 🧬 Deep Learning |
-| | 📐 Statistical Learning |
-| | 📝 Natural Language Processing (NLP) |
+| Programming & Systems                                                                             | Data, ML & AI                                                                                        |
+| :------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------- |
+| <img src="https://skillicons.dev/icons?i=cpp" height="22"/> **Programming and Data Structures***  | <img src="https://skillicons.dev/icons?i=python" height="22"/> **Machine Learning**                  |
+| <img src="https://skillicons.dev/icons?i=cpp" height="22"/> **Algorithms***                       | <img src="https://skillicons.dev/icons?i=python" height="22"/> **Artificial Intelligence**           |
+| <img src="https://skillicons.dev/icons?i=linux" height="22"/> **Systems Programming***            | <img src="https://skillicons.dev/icons?i=python" height="22"/> **Scalable Data Mining**              |
+| <img src="https://skillicons.dev/icons?i=linux" height="22"/> **Computer Networks***              | <img src="https://skillicons.dev/icons?i=python" height="22"/> **Probability and Statistics**        |
+| <img src="https://skillicons.dev/icons?i=postgres" height="22"/> **Database Management Systems*** | <img src="https://skillicons.dev/icons?i=sklearn" height="22"/> **Information Retrieval**            |
+| <img src="https://skillicons.dev/icons?i=linux" height="22"/> **Operating Systems***              | <img src="https://skillicons.dev/icons?i=pytorch" height="22"/> **Deep Learning**                    |
+|                                                                                                   | <img src="https://skillicons.dev/icons?i=sklearn" height="22"/> **Statistical Learning**             |
+|                                                                                                   | <img src="https://skillicons.dev/icons?i=python" height="22"/> **Natural Language Processing (NLP)** |
 
 </div>
 
 <p align="center">
   <sub><i>* Courses marked with an asterisk include both laboratory and theory components; courses without an asterisk are theory-only.</i></sub>
 </p>
-
-<br/>
 
 <h2 align="center" style="font-family: Georgia, serif;">Skills</h2>
 
