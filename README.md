@@ -3,7 +3,7 @@
 </h1> 
 
 <p align="center" style="font-family: Georgia, serif;">
-  I am a software engineering student at <b>IIT Kharagpur</b>, where I have completed both my <b>B.Tech.</b> and <b>M.Tech.</b><br/>
+  I am a software engineering student at <b>IIT Kharagpur</b>, where I my pursuing <b>B.Tech.</b> and <b>M.Tech.</b><br/>
   I am proficient in machine learning, artificial intelligence, large language models (LLMs), data structures and algorithms, system design, competitive programming, and problem-solving.
 </p>
 
