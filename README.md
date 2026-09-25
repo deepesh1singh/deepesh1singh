@@ -10,7 +10,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=deepesh1singh&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/deepesh1singh?style=for-the-badge&color=58A6FF&labelColor=161B22" alt="Followers"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=161B22&color=58A6FF&label=Codeforces&query=%24.result%5B0%5D.rating&url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DDeepesh_singh&suffix=%20Rating" alt="Codeforces Rating"/>
 </p>
 
 <p align="center">
@@ -20,7 +19,7 @@
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">📚 Coursework</h2>
+<h2 align="center" style="font-family: Georgia, serif;">Coursework</h2>
 
 <div align="center">
 
@@ -41,7 +40,7 @@
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">🛠️ Skills</h2>
+<h2 align="center" style="font-family: Georgia, serif;">Skills</h2>
 
 <h3 align="center">Languages & Databases</h3>
 <p align="center">
@@ -88,11 +87,11 @@
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">🚀 Featured Project</h2>
+<h2 align="center" style="font-family: Georgia, serif;">Featured Project</h2>
 
 <div align="center">
 
-### 🎙️ Speech Emotion Recognition (Europe + India)
+### Speech Emotion Recognition (Europe + India)
 **[github.com/deepesh1singh/Speech-Emotion-Recognition-using-CNN-on-Cross-Cultural-Audio-Data](https://github.com/deepesh1singh/Speech-Emotion-Recognition-using-CNN-on-Cross-Cultural-Audio-Data)**
 
 A TensorFlow-based CNN system that classifies speech into **9 emotion categories** using audio data from European and Indian datasets. Uses Mel-spectrogram feature extraction, actor-aware and emotion-based data splitting, augmentation, mixed-precision training and test-time augmentation.
@@ -103,13 +102,13 @@ A TensorFlow-based CNN system that classifies speech into **9 emotion categories
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">💼 More Projects</h2>
+<h2 align="center" style="font-family: Georgia, serif;">More Projects</h2>
 
 <table align="center">
 <tr>
 <td width="50%" valign="top">
 
-**🎫 [Event Management System](https://github.com/deepesh1singh/Event-Management-System)**
+**[Event Management System](https://github.com/deepesh1singh/Event-Management-System)**
 Full-stack system (Node.js, Express.js, MongoDB, EJS) with role-based access for managers, vendors, accountants and customers — ticket booking, JWT auth, PDF tickets via Puppeteer, Nodemailer notifications.
 
 </td>
@@ -123,13 +122,13 @@ gem5 simulation studying how L1/L2 cache size and associativity affect performan
 <tr>
 <td width="50%" valign="top">
 
-**🔐 [Machine Learning in Cryptanalysis](https://github.com/deepesh1singh/ML-Cryptanalysis)**
+**[Machine Learning in Cryptanalysis](https://github.com/deepesh1singh/ML-Cryptanalysis)**
 Applies ML and statistical pattern recognition to attack classical ciphers (Caesar, Vigenère, substitution) using Random Forest, SVM and Neural Networks.
 
 </td>
 <td width="50%" valign="top">
 
-**🧵 [Resource Allocation & Deadlock Avoidance](https://github.com/deepesh1singh/Resource-Allocation-and-Deadlock-Avoidance)**
+**[Resource Allocation & Deadlock Avoidance](https://github.com/deepesh1singh/Resource-Allocation-and-Deadlock-Avoidance)**
 Simulates concurrent resource allocation using the Banker's Algorithm with POSIX threads, mutexes, condition variables and barriers.
 
 </td>
@@ -137,13 +136,13 @@ Simulates concurrent resource allocation using the Banker's Algorithm with POSIX
 <tr>
 <td width="50%" valign="top">
 
-**📑 [Efficient Re-ranking with Cross-Encoders via Early Exit](https://github.com/deepesh1singh/cross-encoder-early-exit-reranking)**
+**[Efficient Re-ranking with Cross-Encoders via Early Exit](https://github.com/deepesh1singh/cross-encoder-early-exit-reranking)**
 Improves cross-encoder re-ranking efficiency using early-exit techniques, evaluated across in-domain and out-of-domain datasets.
 
 </td>
 <td width="50%" valign="top">
 
-**📄 [Review AI — Resume Analyzer & Interview Prep](https://github.com/deepesh1singh/AI-Powered-Resume-Analyzer-Interview-Prep-Platform)**
+**[Review AI — Resume Analyzer & Interview Prep](https://github.com/deepesh1singh/AI-Powered-Resume-Analyzer-Interview-Prep-Platform)**
 Full-stack AI app generating resume match scores, skill-gap analysis, interview questions and personalized prep plans.
 
 </td>
@@ -151,13 +150,13 @@ Full-stack AI app generating resume match scores, skill-gap analysis, interview 
 <tr>
 <td width="50%" valign="top">
 
-**💻 [JobConnect Platform](https://github.com/deepesh1singh/Job-Plateform)**
+**[JobConnect Platform](https://github.com/deepesh1singh/Job-Plateform)**
 Full-stack recruitment platform (React, TypeScript, Node.js, Express, MongoDB) connecting job seekers and employers.
 
 </td>
 <td width="50%" valign="top">
 
-**📈 [Limit Order Book Simulator](https://github.com/deepesh1singh/Limit-Order-Book-Matching-Engine)**
+**[Limit Order Book Simulator](https://github.com/deepesh1singh/Limit-Order-Book-Matching-Engine)**
 Production-style C++20 matching engine simulating electronic exchange mechanics with strict price-time priority, multithreaded processing and fuzz testing.
 
 </td>
@@ -165,13 +164,13 @@ Production-style C++20 matching engine simulating electronic exchange mechanics 
 <tr>
 <td width="50%" valign="top">
 
-**📊 [Customer Churn Prediction (XGBoost)](https://github.com/deepesh1singh/Bias-Variance-Model-)**
+**[Customer Churn Prediction (XGBoost)](https://github.com/deepesh1singh/Bias-Variance-Model-)**
 Predicts telecom customer churn with hyperparameter tuning via RandomizedSearchCV, achieving 0.85 validation AUC.
 
 </td>
 <td width="50%" valign="top">
 
-**🔑 [Differential Distinguishers for ASCON](https://github.com/deepesh1singh/Differential-distinguishers-for-ASCON-permutation)**
+**[Differential Distinguishers for ASCON](https://github.com/deepesh1singh/Differential-distinguishers-for-ASCON-permutation)**
 ML-based cryptanalysis of the ASCON permutation using LightGBM, CNN and LSTM, achieving >99% accuracy for 1–3 rounds.
 
 </td>
@@ -179,13 +178,13 @@ ML-based cryptanalysis of the ASCON permutation using LightGBM, CNN and LSTM, ac
 <tr>
 <td width="50%" valign="top">
 
-**🏦 [BankBrain Smoke Tests](https://github.com/deepesh1singh/BankBrain-Cloud-Ready-Microservices-Banking-Backend)**
+**[BankBrain Smoke Tests](https://github.com/deepesh1singh/BankBrain-Cloud-Ready-Microservices-Banking-Backend)**
 End-to-end testing framework for a multi-agent banking backend, validating Mock Bank API, MCP Server, Support Agent and A2A Gateway.
 
 </td>
 <td width="50%" valign="top">
 
-**🧠 [Virtual Memory Simulation (Approximate LRU)](https://github.com/deepesh1singh/Demand-Paging-Page-Replacement-Simulator)**
+**[Virtual Memory Simulation (Approximate LRU)](https://github.com/deepesh1singh/Demand-Paging-Page-Replacement-Simulator)**
 Models demand paging across 128 concurrent processes with a 16-bit history-based Approximate LRU policy.
 
 </td>
@@ -193,13 +192,13 @@ Models demand paging across 128 concurrent processes with a 16-bit history-based
 <tr>
 <td width="50%" valign="top">
 
-**⚖️ [Neuro-Symbolic Legal Reasoning Datasets](https://github.com/deepesh1singh/Multi-Agent-Framework-with-Formalized-Knowledge-Representations-)**
+**[Neuro-Symbolic Legal Reasoning Datasets](https://github.com/deepesh1singh/Multi-Agent-Framework-with-Formalized-Knowledge-Representations-)**
 Converts statutory text into machine-interpretable benchmarks with grounded predicates and logical rules for SARA and COLIEE datasets.
 
 </td>
 <td width="50%" valign="top">
 
-**🔍 [Recursive File Finder](https://github.com/deepesh1singh/Recursive-file-finder-by-extension-find-all-)**
+**[Recursive File Finder](https://github.com/deepesh1singh/Recursive-file-finder-by-extension-find-all-)**
 POSIX C utility for recursive directory traversal and case-insensitive file-extension matching.
 
 </td>
@@ -207,13 +206,13 @@ POSIX C utility for recursive directory traversal and case-insensitive file-exte
 <tr>
 <td width="50%" valign="top">
 
-**🧩 [Distributed Sudoku with Processes and Pipes](https://github.com/deepesh1singh/Distributed-Sudoku-with-Processes-and-Pipes)**
+**[Distributed Sudoku with Processes and Pipes](https://github.com/deepesh1singh/Distributed-Sudoku-with-Processes-and-Pipes)**
 Interactive Sudoku distributing 9 board blocks across independent processes using POSIX pipes.
 
 </td>
 <td width="50%" valign="top">
 
-**⏱️ [CPU Scheduling Simulation (FCFS & Round Robin)](https://github.com/deepesh1singh/CPU-Scheduling-Simulation-FCFS-and-Round-Robin-)**
+**[CPU Scheduling Simulation (FCFS & Round Robin)](https://github.com/deepesh1singh/CPU-Scheduling-Simulation-FCFS-and-Round-Robin-)**
 Event-driven simulator modeling process scheduling with CPU and I/O bursts and configurable time quanta.
 
 </td>
@@ -221,13 +220,13 @@ Event-driven simulator modeling process scheduling with CPU and I/O bursts and c
 <tr>
 <td width="50%" valign="top">
 
-**🎮 [Signal-Based Child Process Game](https://github.com/deepesh1singh/Signal-Based-Child-Process-Game)**
+**[Signal-Based Child Process Game](https://github.com/deepesh1singh/Signal-Based-Child-Process-Game)**
 Linux process-management simulation modeling an elimination game using fork(), exec() and Unix signals.
 
 </td>
 <td width="50%" valign="top">
 
-**🏗️ [Dependency-Based Rebuild Simulator](https://github.com/deepesh1singh/Dependency-Based-Rebuild-Simulator)**
+**[Dependency-Based Rebuild Simulator](https://github.com/deepesh1singh/Dependency-Based-Rebuild-Simulator)**
 Build-system simulator modeling dependency-driven module rebuilding with process creation and synchronization.
 
 </td>
@@ -235,13 +234,13 @@ Build-system simulator modeling dependency-driven module rebuilding with process
 <tr>
 <td width="50%" valign="top">
 
-**⚡ [High-Performance Cache Optimization & Memory Analysis](https://github.com/deepesh1singh/High-Performance-Cache-Optimization-and-Memory-Analysis)**
+**[High-Performance Cache Optimization & Memory Analysis](https://github.com/deepesh1singh/High-Performance-Cache-Optimization-and-Memory-Analysis)**
 Evaluates cache optimization and memory hierarchy behavior using C, Linux perf, Python and CACTI.
 
 </td>
 <td width="50%" valign="top">
 
-**🤖 [AI Job Assistant](https://github.com/deepesh1singh/AI-Job-Assistant)**
+**[AI Job Assistant](https://github.com/deepesh1singh/AI-Job-Assistant)**
 Semantically matches job descriptions with resumes using Sentence Transformers (MPNet), with a cross-browser extension for LinkedIn, Indeed, Naukri and Glassdoor.
 
 </td>
@@ -249,13 +248,13 @@ Semantically matches job descriptions with resumes using Sentence Transformers (
 <tr>
 <td width="50%" valign="top">
 
-**🔌 [KTP KSocket](https://github.com/deepesh1singh/Custom-Network-Transport-Protocol-with-Sliding-Window-over-UDP)**
+**[KTP KSocket](https://github.com/deepesh1singh/Custom-Network-Transport-Protocol-with-Sliding-Window-over-UDP)**
 Reliable transport protocol over UDP with sliding-window flow control, ACK-based reliability and timeout retransmissions.
 
 </td>
 <td width="50%" valign="top">
 
-**💹 [High-Performance Financial Data Processing](https://github.com/deepesh1singh/High-Performance-Financial-Data-Processing)**
+**[High-Performance Financial Data Processing](https://github.com/deepesh1singh/High-Performance-Financial-Data-Processing)**
 Benchmarks Pure Python, NumPy, Polars and C++ on millions of financial records — C++ achieved 15.5× lower execution time at 2M trades.
 
 </td>
@@ -263,13 +262,13 @@ Benchmarks Pure Python, NumPy, Polars and C++ on millions of financial records �
 <tr>
 <td width="50%" valign="top">
 
-**🔒 [TCP File Encryption Client-Server](https://github.com/deepesh1singh/TCP-File-Encryption-Client-Server)**
+**[TCP File Encryption Client-Server](https://github.com/deepesh1singh/TCP-File-Encryption-Client-Server)**
 Transfers text files over TCP with server-side monoalphabetic substitution encryption, inspected via Wireshark.
 
 </td>
 <td width="50%" valign="top">
 
-**📬 [TaskQueue Server-Worker](https://github.com/deepesh1singh/TaskQueue-Server-Worker)**
+**[TaskQueue Server-Worker](https://github.com/deepesh1singh/TaskQueue-Server-Worker)**
 TCP task queue distributing arithmetic tasks to multiple worker clients with recovery on disconnect.
 
 </td>
@@ -277,13 +276,13 @@ TCP task queue distributing arithmetic tasks to multiple worker clients with rec
 <tr>
 <td width="50%" valign="top">
 
-**✉️ [MiniSMTP](https://github.com/deepesh1singh/MiniSMTP)**
+**[MiniSMTP](https://github.com/deepesh1singh/MiniSMTP)**
 SMTP-like mail client-server system supporting HELO, MAIL FROM, RCPT TO, DATA and per-user mailbox storage.
 
 </td>
 <td width="50%" valign="top">
 
-**📡 [CLDP Raw Discovery](https://github.com/deepesh1singh/CLDP-Raw-Discovery)**
+**[CLDP Raw Discovery](https://github.com/deepesh1singh/CLDP-Raw-Discovery)**
 Custom network discovery protocol over IPv4 raw sockets with custom HELLO/QUERY/RESPONSE messages.
 
 </td>
@@ -291,13 +290,13 @@ Custom network discovery protocol over IPv4 raw sockets with custom HELLO/QUERY/
 <tr>
 <td width="50%" valign="top">
 
-**🧬 [Hybrid CNN-LSTM Differential Distinguisher](https://github.com/deepesh1singh/Hybrid-CNN-LSTM-differential-distinguisher-for-ASCON-ACE-SIMECK-LLBC-and-future-ciphers)**
+**[Hybrid CNN-LSTM Differential Distinguisher](https://github.com/deepesh1singh/Hybrid-CNN-LSTM-differential-distinguisher-for-ASCON-ACE-SIMECK-LLBC-and-future-ciphers)**
 Extends attack depth for ASCON (4→6 rounds) and Simeck (12→19 rounds) using a hybrid CNN-LSTM distinguisher across 8 evaluated architectures.
 
 </td>
 <td width="50%" valign="top">
 
-**⛵ [Boating Simulation with Threads & Synchronization](https://github.com/deepesh1singh/Boating-Simulation-with-Threads-and-Synchronization)**
+**[Boating Simulation with Threads & Synchronization](https://github.com/deepesh1singh/Boating-Simulation-with-Threads-and-Synchronization)**
 Models concurrent boat and visitor activities with synchronized assignment and randomized ride durations using pthreads.
 
 </td>
@@ -305,13 +304,13 @@ Models concurrent boat and visitor activities with synchronized assignment and r
 <tr>
 <td width="50%" valign="top">
 
-**🍽️ [Restaurant Simulation](https://github.com/deepesh1singh/Restaurant-Simulation-Processes-Shared-Memory-Semaphores-)**
+**[Restaurant Simulation](https://github.com/deepesh1singh/Restaurant-Simulation-Processes-Shared-Memory-Semaphores-)**
 Multi-process restaurant simulation using System V IPC, shared memory and semaphores for order and table coordination.
 
 </td>
 <td width="50%" valign="top">
 
-**👥 [Leader and Followers Using Shared Memory](https://github.com/deepesh1singh/Leader-and-Followers-Using-Shared-Memory)**
+**[Leader and Followers Using Shared Memory](https://github.com/deepesh1singh/Leader-and-Followers-Using-Shared-Memory)**
 C++17 leader-follower coordination system using System V shared memory and turn-by-turn synchronization.
 
 </td>
@@ -319,13 +318,13 @@ C++17 leader-follower coordination system using System V shared memory and turn-
 <tr>
 <td width="50%" valign="top">
 
-**💾 [Demand Paging Simulator (Binary Search + Swapping)](https://github.com/deepesh1singh/Demand-Paging-Simulator-Binary-Search-Swapping-)**
+**[Demand Paging Simulator (Binary Search + Swapping)](https://github.com/deepesh1singh/Demand-Paging-Simulator-Binary-Search-Swapping-)**
 Memory management simulator with page-fault handling, frame allocation and process-level swapping.
 
 </td>
 <td width="50%" valign="top">
 
-**📖 [Virtual Memory Simulation (LRU-Style Replacement)](https://github.com/deepesh1singh/Virtual-Memory-Simulation-with-LRU-Style-Replacement)**
+**[Virtual Memory Simulation (LRU-Style Replacement)](https://github.com/deepesh1singh/Virtual-Memory-Simulation-with-LRU-Style-Replacement)**
 Demand paging simulator with fixed-frame allocation and LRU-style page replacement.
 
 </td>
@@ -333,13 +332,13 @@ Demand paging simulator with fixed-frame allocation and LRU-style page replaceme
 <tr>
 <td width="50%" valign="top">
 
-**🎞️ [Multimedia Database System](https://github.com/deepesh1singh/multimedia-database-system)**
+**[Multimedia Database System](https://github.com/deepesh1singh/multimedia-database-system)**
 Full-stack system (Node.js, Express, Sequelize, SQLite) with JWT auth, Socket.IO notifications and an admin analytics dashboard.
 
 </td>
 <td width="50%" valign="top">
 
-**🏛️ [Gram Panchayat Management System](https://github.com/deepesh1singh/GRAM-PANCHAYAT-MANAGEMNT-SYSTEM)**
+**[Gram Panchayat Management System](https://github.com/deepesh1singh/GRAM-PANCHAYAT-MANAGEMNT-SYSTEM)**
 PHP-based system digitizing citizen services with role-based dashboards for administrators, employees, monitors and citizens.
 
 </td>
@@ -347,13 +346,13 @@ PHP-based system digitizing citizen services with role-based dashboards for admi
 <tr>
 <td width="50%" valign="top">
 
-**🔎 [ANN Search with LSH and HNSW](https://github.com/deepesh1singh/Approximate-Nearest-Neighbor-Search-Implementation-with-LSH-and-HNSW)**
+**[ANN Search with LSH and HNSW](https://github.com/deepesh1singh/Approximate-Nearest-Neighbor-Search-Implementation-with-LSH-and-HNSW)**
 Compares Locality-Sensitive Hashing and HNSW graphs using Recall@5/10/15 and query latency benchmarks.
 
 </td>
 <td width="50%" valign="top">
 
-**📉 [ML Model Comparison: PyTorch vs Apache Spark](https://github.com/deepesh1singh/Machine-Learning-Model-Comparison-using-PyTorch-and-Spark)**
+**[ML Model Comparison: PyTorch vs Apache Spark](https://github.com/deepesh1singh/Machine-Learning-Model-Comparison-using-PyTorch-and-Spark)**
 Compares model behavior across configurations and activation functions using MSE, with reproducible notebooks.
 
 </td>
@@ -361,13 +360,13 @@ Compares model behavior across configurations and activation functions using MSE
 <tr>
 <td width="50%" valign="top">
 
-**🏷️ [Large-Scale Multi-Label Text Classification](https://github.com/deepesh1singh/Large-Scale-Multi-Label-Text-Classification-with-PyTorch)**
+**[Large-Scale Multi-Label Text Classification](https://github.com/deepesh1singh/Large-Scale-Multi-Label-Text-Classification-with-PyTorch)**
 Multi-label classifier on Amazon-670K with 670,091 labels, comparing SGD, SGD+Momentum/Nesterov and Adadelta.
 
 </td>
 <td width="50%" valign="top">
 
-**📁 [UDP Word-by-Word File Transfer](https://github.com/deepesh1singh/UDP-Word-by-Word-File-Transfer-Client-Server-)**
+**[UDP Word-by-Word File Transfer](https://github.com/deepesh1singh/UDP-Word-by-Word-File-Transfer-Client-Server-)**
 Client-server file transfer over UDP with a custom application-layer protocol and packet-capture analysis.
 
 </td>
@@ -376,7 +375,7 @@ Client-server file transfer over UDP with a custom application-layer protocol an
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">🏆 Coding Profiles</h2>
+<h2 align="center" style="font-family: Georgia, serif;">Coding Profiles</h2>
 
 <div align="center">
 
@@ -389,7 +388,7 @@ Client-server file transfer over UDP with a custom application-layer protocol an
 
 <br/>
 
-<h2 align="center" style="font-family: Georgia, serif;">📊 GitHub Stats</h2>
+<h2 align="center" style="font-family: Georgia, serif;">GitHub Stats</h2>
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=deepesh1singh&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
@@ -399,13 +398,6 @@ Client-server file transfer over UDP with a custom application-layer protocol an
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepesh1singh&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
 </p>
-
-<h3 align="center">📈 Contribution Graph — When I Contributed</h3>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deepesh1singh&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF" width="95%"/>
-</p>
-
-<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=deepesh1singh&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" />
 </p>
 
