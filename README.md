@@ -131,7 +131,7 @@ Full-stack system (Node.js, Express.js, MongoDB, EJS) with role-based access for
 
 <td width="50%" valign="top">
 
-**⚙️ [Cache-Aware Performance Optimization (gem5 + RISC-V)](https://github.com/deepesh1singh/Cache-Aware-Performance-Optimization-using-gem5-and-RISC-V)**
+**[Cache-Aware Performance Optimization (gem5 + RISC-V)](https://github.com/deepesh1singh/Cache-Aware-Performance-Optimization-using-gem5-and-RISC-V)**
 
 gem5 simulation studying how L1/L2 cache size and associativity affect performance, with parameter sweeps and Pareto-optimal configuration analysis.
 
@@ -463,19 +463,6 @@ Client-server file transfer over UDP with a custom application-layer protocol an
 </tr>
 
 </table>
-
-<br/>
-
-<h2 align="center" style="font-family: Georgia, serif;">Coding Profiles</h2>
-
-<div align="center">
-
-| Platform | Handle | Stat |
-|:---:|:---:|:---:|
-| ![Codeforces](https://img.shields.io/badge/Codeforces-445F9D?style=for-the-badge&logo=codeforces&logoColor=white) | [Deepesh_singh](https://codeforces.com/profile/Deepesh_singh) | **Expert · 1654 rating** |
-| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | [deepesh1singh](https://github.com/deepesh1singh) | **37+ public repositories** |
-
-</div>
 
 <br/>
 
